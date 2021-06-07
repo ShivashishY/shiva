@@ -6,7 +6,7 @@ template: page
 
 I can help you to maximize and take your project to the next level with modern front-end tools, serverless architecture, and CMS Integrations.
 
-> I am currently accepting new contracts. If your project is so awesome that people can't ignore, do [reach me out](https://shiva.gtsb.io/contact).
+> I am currently accepting new contracts. If your project is so awesome that people can't ignore, do [reach me out](https://shivas.gtsb.io/contact).
 
 ## Philosophy
 
@@ -63,6 +63,6 @@ All my projects are API centric and I freeze the API schema before jumping into 
 
 ## How to Hire me
 
-If the skills I can offer sound like useful additions to your existing team or want to me to help with starting a project from scratch, please [contact me](https://shiva.gtsb.io/contact).
+If the skills I can offer sound like useful additions to your existing team or want to me to help with starting a project from scratch, please [contact me](https://shivas.gtsb.io/contact).
 
 I am happy to work on-site in India, occasionally show up at more distant destinations or work fully remote anywhere else.

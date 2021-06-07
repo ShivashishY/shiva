@@ -17,11 +17,11 @@ You can contact me by email at shivashishmca@gmail.com to say hi! I always appre
 
 ### What am I doing right now?
 
-See [my "now" page](https://shiva.gtsb.io/now).
+See [my "now" page](https://shivas.gtsb.io/now).
 
 ### Contact me?
 
-See [my "contact" page](https://shiva.gtsb.io/contact)
+See [my "contact" page](https://shivas.gtsb.io/contact)
 
 ### Around the web
 
@@ -30,6 +30,6 @@ See [my "contact" page](https://shiva.gtsb.io/contact)
 -   **Linkedin**: [shivashishyadav](https://www.linkedin.com/in/shivashishyadav/)
 -   **Facebook**: [shivashish.ydv](https://www.facebook.com/shivashish.ydv/)
 -   **Ko-Fi**: [shivashish](https://ko-fi.com/shivashish)
--   **Feed**: [RSS](https://shiva.gtsb.io/rss.xml)
+-   **Feed**: [RSS](https://shivas.gtsb.io/rss.xml)
 
 If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at [shivashishmca@gmail.com](mailto:shivashishmca@gmail.com)!

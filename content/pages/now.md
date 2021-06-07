@@ -11,7 +11,7 @@ Recently I am doing a sabbatical break, and spend my time to read books, watch s
 
 ## Programming
 
-Programming a few web apps of my personal projects and [client's](https://shiva.gtsb.io/work-with-me).
+Programming a few web apps of my personal projects and [client's](https://shivas.gtsb.io/work-with-me).
 
 ## Writing
 

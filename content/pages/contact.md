@@ -13,4 +13,4 @@ If you have any comments, ideas, critiques, or you just want to say hi, don't he
 -   **Linkedin**: [shivashishyadav](https://www.linkedin.com/in/shivashishyadav/)
 -   **Facebook**: [shivashish.ydv](https://www.facebook.com/shivashish.ydv/)
 -   **Ko-Fi**: [shivashish](https://ko-fi.com/shivashish)
--   **Feed**: [RSS](https://shiva.gtsb.io/rss.xml)
+-   **Feed**: [RSS](https://shivas.gtsb.io/rss.xml)

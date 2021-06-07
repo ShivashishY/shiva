@@ -5,11 +5,11 @@ module.exports = {
       name: 'Shivashish Yadav',
     },
     pathPrefix: '/',
-    siteUrl: 'https://shiva.gtsb.io',
+    siteUrl: 'https://shivas.gtsb.io',
     description:
       'Software engineer and open-source creator. This is my digital space.',
-    feedUrl: 'https://shiva.gtsb.io/rss.xml',
-    logo: 'https://shiva.gtsb.io/logo.png',
+    feedUrl: 'https://shivas.gtsb.io/rss.xml',
+    logo: 'https://shivas.gtsb.io/logo.png',
   },
   plugins: [
     // ===================================================================================
