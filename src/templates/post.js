@@ -12,12 +12,32 @@ import Comment from '../components/Comment'
 import Blurb from '../components/Blurb'
 import config from '../utils/config'
 import { slugify } from '../utils/helpers'
+import {
+  FacebookShareButton,
+  LinkedinShareButton,
+  TelegramShareButton,
+  TwitterShareButton,
+  EmailShareButton,
+  TumblrShareButton,
+  RedditShareButton,
+  WhatsappShareButton,
+   FacebookIcon,
+    TwitterIcon,
+    RedditIcon,
+    LinkedinIcon,
+    TumblrIcon,
+    EmailIcon,
+    WhatsappIcon,
+    TelegramIcon,  
+} from "react-share";
 
 export default function PostTemplate({ data, pageContext }) {
   const post = data.markdownRemark
   const { previous, next } = pageContext
   const { tags, thumbnail, title, description, date } = post.frontmatter
   const commentBox = React.createRef()
+  const baseUrl = 'https://shivas.gtsb.io/'
+  const shareIconSize = 32;
 
   useEffect(() => {
     const commentScript = document.createElement('script')
@@ -123,6 +143,62 @@ export default function PostTemplate({ data, pageContext }) {
 
         <Suggested previous={previous} next={next} />
       </div>
+      <div className="sharer-buttons-toolbar clearfix floating">
+      <FacebookShareButton url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Twitter share button"}}
+                        >
+                            <FacebookIcon round size={shareIconSize} />
+                        </FacebookShareButton>
+
+
+                    <TwitterShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Twitter share button"}}
+                        >
+                            <TwitterIcon round size={shareIconSize}/>
+                        </TwitterShareButton>
+                        <LinkedinShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "LinkedIn share button"}}
+                        >
+                            <LinkedinIcon round size={shareIconSize}/>
+                        </LinkedinShareButton>
+                        <RedditShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Reddit share button"}}
+                        >
+                            <RedditIcon round size={shareIconSize}/>
+                        </RedditShareButton>
+                        <TumblrShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Tumblr share button"}}
+                        >
+                            <TumblrIcon round size={shareIconSize}/>
+                        </TumblrShareButton>
+
+                        <EmailShareButton
+                           url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Share by email button"}}
+                        >
+                            <EmailIcon round size={shareIconSize}/>
+                        </EmailShareButton>
+
+                        <WhatsappShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Share by whatsapp button"}}
+                        >
+                            <WhatsappIcon round size={shareIconSize}/>
+                        </WhatsappShareButton>
+
+                        <TelegramShareButton
+                            url={baseUrl + pageContext.slug} title={title}
+                            additionalProps={{"aria-label": "Share by whatsapp button"}}
+                        >
+                            <TelegramIcon round size={shareIconSize}/>
+                        </TelegramShareButton>
+                      
+
+    </div>
       <ScrollToTop showUnder={160}>
                             <span class="largefont">Top</span>
                       </ScrollToTop>

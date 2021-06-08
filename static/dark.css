@@ -194,3 +194,14 @@ pre.language-terminal {
 .largefont {
   background-color: #7325bb;
 }
+
+@media screen and (max-width: 800px) {
+  .sharer-buttons-toolbar {
+  margin: 0;
+  background:rgb(23,33,53,0.4);
+  border-top: 1px solid rgba(23,33,53,0.5);
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+
+  }
+}

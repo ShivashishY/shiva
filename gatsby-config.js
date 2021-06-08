@@ -17,7 +17,6 @@ module.exports = {
     // ===================================================================================
 
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -30,6 +29,12 @@ module.exports = {
         theme_color: '#FAE042',
         display: 'minimal-ui',
         icon: `static/logo.png`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/blog/*`],
       },
     },
     {

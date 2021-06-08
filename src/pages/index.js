@@ -42,9 +42,14 @@ export default function BlogIndex({ data }) {
       <SEO />
       <Blurb title="Namaste, I'm Shivashish">
         <p>
-          I'm a software engineer and writer. This website is my digital garden
-          &mdash; a compendium of the things I've learned and created over the
-          years.
+        I'm glad you're here! I'm a software engineer and writer. This website is my digital space.
+          &mdash; I write to express.
+          </p> 
+         <p> You can find {' '}
+         <Link to="/blog"> blog posts </Link> about Code, Product & Tech Policy. 
+          You can read my {' '}
+          <Link to="/guides">guides & codelabs </Link>, or know more {' '}
+          <Link to="/about">about me</Link>.
         </p>
       </Blurb>
       <div className="container index">

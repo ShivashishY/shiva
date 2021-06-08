@@ -729,7 +729,7 @@ a code[class*='language-']:hover {
 /* Footer */
 
 .footer {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer > .flex {
@@ -779,8 +779,8 @@ a code[class*='language-']:hover {
 }
 
 .footer img {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 @media screen and (min-width: 800px) {
@@ -791,8 +791,8 @@ a code[class*='language-']:hover {
   }
 
   .footer a {
-    padding: 0.75rem;
-    font-size: 1.2rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
   }
 
   .footer a.img {
@@ -1660,3 +1660,50 @@ kbd {
   opacity: 1;
   transition: 0s
 } 
+
+.namefooter {
+  text-align: center;
+}
+
+.lets-connect {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sharer-buttons-toolbar {
+  margin: 1.2rem 0;
+  position: fixed;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  box-sizing: border-box;
+  transform: translateY(-50%);
+  vertical-align: middle;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .sharer-buttons-toolbar {
+    width: auto;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    background-color: #4c5765;
+    border-top: 1px solid black;
+    margin: 0;
+    z-index: 1;
+    flex-direction: row;
+
+  }
+}
+
+
+
