@@ -1,0 +1,73 @@
+export default [
+  {
+    icon: '💬',
+    title: 'Chatter',
+    path: 'https://chatterme.herokuapp.com/',
+    source: 'https://github.com/ShivashishY/Chatter',
+    description: 'A free, open source web chat app.',
+  },
+  {
+    icon: '👨‍💻️',
+    title: 'CodingBuddy IDE',
+    path: 'https://cbide.herokuapp.com/',
+    source: 'https://github.com/ShivashishY/CodingBuddy-IDE',
+    description: 'Online Compiler for codes.',
+  },
+  {
+    icon: '🖥️',
+    title: 'CodingBuddy',
+    path: 'https://codingbuddy.herokuapp.com/',
+    source: 'https://github.com/ShivashishY/CodingBuddy',
+    description: 'Real-time Sharing Code platform.',
+  },
+  {
+    icon: '🦠',
+    title: 'CovidV',
+    path: 'https://covidv.github.io/',
+    source: 'https://github.com/ShivashishY/covidv.github.io',
+    description: 'Corona Virus tracking web app.',
+  },
+  {
+    icon: '📷',
+    title: 'Github Portfolio',
+    path: 'https://shivashishy.github.io',
+    source: 'https://github.com/ShivashishY/ShivashishY.github.io',
+    description: 'Simple github portfolio live on github pages',
+  },
+  {
+    icon: '📑',
+    title: ' Portfolio Template',
+    source: 'https://github.com/ShivashishY/old',
+    description: 'A particle-theme template as a landing page for my information page',
+  },
+  {
+    icon: '🌐',
+    title: 'Linkedin Content Downloader',
+    source: 'https://github.com/ShivashishY/LILearningDownloader',
+    description: 'Asynchronous scraping tool to fetch LinkedIn-learnings courses videos.',
+  },
+  {
+    icon: '💫',
+    title: 'Wish Script',
+    source: 'https://github.com/ShivashishY/WishScript',
+    description: 'simple Vanilla Js script to wish someone birthday in a fun way.',
+  },
+  {
+    icon: '📹',
+    title: 'YT Video Downloader',
+    source: 'https://github.com/ShivashishY/YT_VideoDownloader',
+    description: 'YouTube Downloader which provides search query and functions without ads.',
+  },
+  {
+    icon: '🏗️',
+    title: 'Employed Calculator',
+    source: 'https://github.com/ShivashishY/Employed-Days',
+    description: 'A simple React app to calculate employed days between two dates, and how many working days are in the range.',
+  },
+  {
+    icon: '🔋',
+    title: 'Any Device Cell Status',
+    source: 'https://github.com/ShivashishY/Any-Device-Cell-Status',
+    description: 'Using JS battery API to get the status of Any devices battery.',
+  },
+]
