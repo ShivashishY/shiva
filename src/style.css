@@ -1346,10 +1346,14 @@ kbd {
   grid-template-columns: repeat(2, 1fr);
   padding: 0.75rem 0;
   grid-gap: 1.5rem;
+
 }
 
 .project {
   margin-bottom: 1.5rem;
+  border: 3px solid #6d7bf3;
+  padding: 25px;
+  margin-right: 10px;
 }
 
 .project .icon {

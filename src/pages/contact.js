@@ -11,7 +11,7 @@ const ContactPage = () => (
         <div className="container">
           <h1>Contact Me</h1>
           <p className="subtitle">
-          If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at <a href="mailto:responsetoshivani@gmail.com">responsetoshivani@gmail.com</a>
+          If you have any comments, ideas, critiques, or you just want to say hi, don't hesitate to send me an email at <a href="mailto:shivashishmca@gmail.com">shivashishmca@gmail.com</a>
           </p>
           <h2>Around the web</h2>
           <ul>
@@ -30,7 +30,7 @@ const ContactPage = () => (
 
 
 
-    <ContactForm action="https://www.flexyform.com/f/c78dba7b2fc637f4140b445f96c1d1823c89e36f"></ContactForm>
+    <ContactForm action="https://www.flexyform.com/f/5af4b97299d19b7498db04ab5c3b04478514657a"></ContactForm>
 
     {/* Currently, the best way to reach out to me is on Twitter or LinkedIn. I look forward to hearing from you! */}
 

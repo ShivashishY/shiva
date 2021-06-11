@@ -84,7 +84,7 @@ export default function BlogIndex({ data }) {
         <section title="Contact" className="button">
          <header className="major">
         <h2>Contact Me.</h2>
-        <ContactForm action="https://www.flexyform.com/f/c78dba7b2fc637f4140b445f96c1d1823c89e36f"></ContactForm>
+        <ContactForm action="https://www.flexyform.com/f/5af4b97299d19b7498db04ab5c3b04478514657a"></ContactForm>
     </header>
 </section>
       </div>

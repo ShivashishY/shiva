@@ -20,6 +20,11 @@
   --border-color: #3b3b3b;
 }
 
+.project {
+
+  border: 3px solid #a855f7;
+}
+
 h1 {
   color: white;
 }

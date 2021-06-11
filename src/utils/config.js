@@ -4,5 +4,5 @@ export default {
   siteLogo: '/logo.png',
   description:
     'Software engineer and open source creator. This is my digital space',
-    userTwitter: 'ShivaniYadava',
+    userTwitter: 'ShivashishYadav',
   }
