@@ -205,3 +205,39 @@ pre.language-terminal {
 
   }
 }
+
+.form {
+  background-color: var(--light-background);
+  color: var(--light-font-color);
+  border: 3px solid var(--heading-color);
+
+}
+
+.form a {
+  color: var(--light-background) !important;
+}
+
+.form a:hover {
+  border-bottom: 1px solid;
+}
+
+.form input,
+.form textarea{
+  border: 1px solid #111111;
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+
+.buttonss {
+  border: 2px solid var(--link-color);
+  background: #7325bb;
+  color: white;
+  border: 1px solid var(--border-color);
+}
+
+.buttonss:hover {
+  border: 2px solid var(--border-color);
+  background: var(--link-color-darker);
+  color: white;
+}

@@ -1706,4 +1706,60 @@ kbd {
 }
 
 
+.form {
+  background-color: var(--background);
+  color: var(--heading-color);
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 750px;
+  border: 3px solid var(--light-background);
+}
+
+.form a {
+  color: var(--heading-color) !important;
+  transition: 0.25s all ease;
+  text-decoration: none;
+}
+
+.form a:hover {
+  border-bottom: 1px solid;
+}
+
+.form input,
+.form textarea{
+  border: 1px solid var(--background);
+  width: 100%;
+  font-size: 1.3rem;
+}
+
+
+.buttonss {
+  display: inline-block;
+  border: 2px solid var(--link-color);
+  padding: 0.75rem 1rem;
+  margin-right: 0.75rem;
+  font-weight: 500;
+  background: #7325bb;
+  color: white;
+  border-radius: 0.35rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.buttonss:hover {
+  border: 2px solid var(--border-color);
+  background: var(--link-color-darker);
+  color: white;
+  box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+}
+
+@media screen and (min-width: 800px) {
+  .buttonss {
+    font-size: 1.2rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+
 

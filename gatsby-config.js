@@ -104,6 +104,7 @@ module.exports = {
     // ===================================================================================
 
     'gatsby-plugin-sharp',
+    'gatsby-plugin-twitter',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
@@ -117,21 +118,6 @@ module.exports = {
       options: {
         name: 'assets',
         path: `${__dirname}/static/`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
-        // tailwind: true, // Enable tailwindcss support
-        // ignore: ['/ignored.css', 'prismjs/', 'docsearch.js/'], // Ignore files/folders
-        // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
-        color: `teal`,
-        purgeCSSOptions: {
-          // https://purgecss.com/configuration.html#options
-          // safelist: ['safelist'], // Don't remove this selector
-        },
       },
     },
     {

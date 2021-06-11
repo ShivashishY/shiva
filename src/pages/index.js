@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
-import Guides from '../components/Guides'
+import ContactForm from '../components/ContactForm'
 import Projects from '../components/Projects'
 import SEO from '../components/SEO'
 import Blurb from '../components/Blurb'
@@ -51,6 +51,8 @@ export default function BlogIndex({ data }) {
           <Link to="/guides">guides & codelabs </Link>, or know more {' '}
           <Link to="/about">about me</Link>.
         </p>
+        <a href="https://twitter.com/ShivashishYadav" class="twitter-follow-button" data-size="large" data-text="Follow me" data-show-count="true">Follow @ShivashishYadav</a>
+
       </Blurb>
       <div className="container index">
         <Section title="Latest Articles." button>
@@ -79,6 +81,12 @@ export default function BlogIndex({ data }) {
             </a>
           </div>
         </Section>
+        <section title="Contact" className="button">
+         <header className="major">
+        <h2>Contact Me.</h2>
+        <ContactForm action="https://www.flexyform.com/f/c78dba7b2fc637f4140b445f96c1d1823c89e36f"></ContactForm>
+    </header>
+</section>
       </div>
       <ScrollToTop showUnder={160}>
                             <span class="largefont">Top</span>
