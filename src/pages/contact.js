@@ -21,7 +21,7 @@ const ContactPage = () => (
   <li><strong>Facebook:</strong><a href="https://www.facebook.com/shivashish.ydv/">[shivashish.ydv]</a></li>
   <li><strong>Feed:</strong><a href="https://shivas.gtsb.io/rss.xml">[RSS]</a></li>
   <li><strong>Ko-Fi:</strong><a href="https://ko-fi.com/shivashish">[shivashish]</a></li>
-
+  <li><strong>Hashnode:</strong><a href="https://hashnode.com/@shivashish">[shivashish]</a></li>
     </ul>
         </div>
       </header>
