@@ -1391,8 +1391,6 @@ kbd {
 
 @media screen and (min-width: 800px) {
   .projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     padding: 0.75rem 0;
     grid-gap: 3rem;
   }
