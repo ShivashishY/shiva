@@ -15,7 +15,7 @@ module.exports = {
     // ===================================================================================
     // Meta
     // ===================================================================================
-
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-manifest',
@@ -29,6 +29,14 @@ module.exports = {
         theme_color: '#FAE042',
         display: 'minimal-ui',
         icon: `static/logo.png`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://shivas.gtsb.io',
+        sitemap: 'https://shivas.gtsb.io/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       },
     },
     {
