@@ -523,11 +523,6 @@ a code[class*='language-']:hover {
 /* Navbar */
 
 
-@media screen and (min-width: 600px) {
-  main {
-    margin-top: 50px;
-  }
-}
 
 @media screen and (min-width: 800px) {
   main {

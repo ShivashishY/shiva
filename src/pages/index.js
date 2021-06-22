@@ -12,6 +12,7 @@ import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
 import projects from '../data/projects'
 import ScrollToTop from "react-scroll-up"
+import CookieConsent from "react-cookie-consent";
 
 
 export default function BlogIndex({ data }) {
@@ -86,10 +87,20 @@ export default function BlogIndex({ data }) {
         <h2>Contact Me.</h2>
         <ContactForm action="https://www.flexyform.com/f/5af4b97299d19b7498db04ab5c3b04478514657a"></ContactForm>
     </header>
+    <CookieConsent
+  location="bottom"
+  buttonText="Sure!!"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#111827" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "15px" }}
+  expires={150}
+>
+  This website uses cookies to enhance the user experience. This site does not store any information{" "}
+</CookieConsent>
 </section>
       </div>
       <ScrollToTop showUnder={160}>
-                            <span class="largefont">Top</span>
+                            <span className="largefont">Top</span>
         </ScrollToTop>
     </Layout>
   )
