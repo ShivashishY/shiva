@@ -13,16 +13,19 @@ class ContactForm extends React.Component {
     return (
       <form style={formStyle} className="form" action={this.props.action} method="post">
         <div>
-          <label>Full Name</label>
+          <label>Full Name
           <input type="text" name="fullname"/>
+          </label>
         </div>
         <div>
-          <label>Email</label>
+          <label>Email
           <input type="email" name="email"/>
+          </label>
         </div>
         <div>
-          <label>Message</label>
+          <label>Message
           <textarea name="message" rows="5"></textarea>
+          </label>
         </div>
         <ul className="actions" style={buttonsStyle}>
             <li>
