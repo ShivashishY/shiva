@@ -102,3 +102,9 @@ ________________________________________________________________________________
 ## [Lukol](https://www.lukol.com/)
 * Shares data with Goolag
 * Privacy policy: [Click Here](https://www.lukol.com/privacy.php)
+
+## The End !
+
+I hope you found this article valuable. If yes do let me know. 😊
+
+Also if you got any question feel free to ping me anywhere.

@@ -64,3 +64,9 @@ Animista is a place where you can play with a collection of ready to use CSS ani
 ![](../images/post-images/css-tools/animista.png)
 
 [Go To Website](https://animista.net/)
+
+## The End !
+
+I hope you found this article valuable. If yes do let me know. 😊
+
+Also if you got any question feel free to ping me anywhere.
