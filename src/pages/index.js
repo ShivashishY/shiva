@@ -47,7 +47,7 @@ export default function BlogIndex({ data }) {
           &mdash; I write to express.
           </p> 
          <p> You can find {' '}
-         <Link to="/blog"> blog posts </Link> about Code, Product & Tech Policy. 
+         <Link to="/blog"> blog posts </Link> about Code,<Link to="/food"> Food</Link>, Product & Tech Policy. 
           You can read my {' '}
           <Link to="/guides">guides & codelabs </Link>, or know more {' '}
           <Link to="/about">about me</Link>.
