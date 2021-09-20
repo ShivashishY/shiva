@@ -52,8 +52,16 @@ export default function BlogIndex({ data }) {
           <Link to="/guides">guides & codelabs </Link>, or know more {' '}
           <Link to="/about">about me</Link>.
         </p>
-        <a href="https://twitter.com/ShivashishYadav" class="twitter-follow-button" data-size="large" data-text="Follow me" data-show-count="true">Follow @ShivashishYadav</a>
-
+      
+        <a
+              href="https://shivashishy.github.io/Resume/assets/Shivashish_MCA_Nov_2020.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+              style={{ textAlign: 'center', marginLeft: '.5rem' }}
+            >
+              Download Resume
+            </a>
       </Blurb>
       <div className="container index">
         <Section title="Latest Articles." button>
