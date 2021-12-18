@@ -6,7 +6,6 @@ hidden: false
 slug: search-engine-alternative
 categories:
 -   SearchEngine
--   Popular
 tags:
 -   Google
 -   SearchEngine Alternative
