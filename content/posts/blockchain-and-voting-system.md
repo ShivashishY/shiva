@@ -34,7 +34,7 @@ Officials of the Election Commission (EC) are exploring the possibility of using
 # Key points:
 
 - Various political parties have demanded from the Election Commission that the voting of migrant laborers who are deprived of voting should be ensured.
-- Migrant workers cannot go home to exercise their franchise during elections, so they have to go to that city; They should be allowed to vote for their constituency in which they are working.
+- Migrant workers cannot go home to exercise their franchise during elections, so they have to go to that city. They should be allowed to vote for their constituency in which they are working.
 
 # Blockchain technology:
 

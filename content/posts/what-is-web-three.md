@@ -75,7 +75,7 @@ When using search engines, finding the best results used to be quite challenging
 
 Web 2.0 also introduced social tagging systems, but they can be manipulated. With smart algorithms, the results can be filtered as manipulated by the AI.
 
-### **Better Advertising &amp; Marketing:** 
+### **Better Advertising and Marketing:** 
 No one likes to be bombarded with online ads. However, if ads apply to one's interests and needs, they can be useful rather than annoying. Web 3.0 aims to improve advertising by leveraging smart AI systems and targeting specific audiences based on consumer data.
 
 ### **Better Customer Support:** 

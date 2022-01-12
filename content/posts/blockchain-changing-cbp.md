@@ -60,7 +60,7 @@ Merchants should work with a payment service provider who offers
 
 The concept of bitcoin has been around for a while now. It started in 2008 and the white paper. That is the paper that describes how bitcoin should actually function is titled as bitcoin a peer-to-peer electronic cash system, if you read it carefully, it talks bitcoin in an electronic cash system, so technically it's not exactly an investment product.
 
-In fact, if you read the bitcoin white paper, you realize that the word investment is not at all used anywhere instead if you check out the word payments; it has been used frequently in the white paper. 
+In fact, if you read the bitcoin white paper, you realize that the word investment is not at all used anywhere instead if you check out the word payments. it has been used frequently in the white paper. 
 the white paper does not treat bitcoin to be an investment product, it essentially treats bitcoins to be a
 Payments product. It also talks about what are the flaws that are there in the present-day electronic cash systems and how bitcoin can change those flaws? How bitcoin can address those flaws?
 

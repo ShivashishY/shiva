@@ -46,7 +46,7 @@ Peer-to-peer networks can be classified according to their architectural differe
 
 In an unstructured peer-to-peer network, nodes connect and communicate randomly. Since nodes frequently join and leave the network, these systems are best suited for high churn activity. For example, a social media platform deployed on an unstructured P2P network can use it efficiently, as users can often choose to join or leave the network.
 
-Such a network is easy to build; However, they require high CPU and memory usage as the search queries are sent across the network. Thus, if only 5% of computers have what you are looking for, it may take a while.
+Such a network is easy to build. However, they require high CPU and memory usage as the search queries are sent across the network. Thus, if only 5% of computers have what you are looking for, it may take a while.
 
 ### Structured peer-to-peer network
 
@@ -91,13 +91,13 @@ Paxful is a P2P marketplace that connects bitcoin buyers and sellers. The exchan
 
 Exchange is only one market. Before doing business, pay attention to the reputation of the seller. However, the exchange offers a secure escrow service for bitcoin transactions, making it harder to be scammed. You will also need to verify your Paxful account with ID in order to use it.
 
-Fee: 1% for sellers; no charge for buyers
+Fee: 1% for sellers, no charge for buyers.
 
 ### LocalBitcoins
 
 LocalBitcoins is a P2P crypto exchange that allows buyers and sellers to communicate directly instead of manually matching up. Its vendors offer a wide range of payment options such as PayPal, wire transfer, SEPA, Skrill, and the platform secures business using measures such as escrow service, login guard, and 2FA (optional). Starting in 2019, LocalBitcoins will require you to present some identity verification in order to interact with (trading, buying, sending) varying amounts of bitcoin.
 
-Fee: 1% for sellers: nothing from buyers
+Fee: 1% for sellers, nothing from buyers.
 
 ### Binance P2P
 

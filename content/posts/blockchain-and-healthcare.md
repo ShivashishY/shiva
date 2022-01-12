@@ -23,7 +23,7 @@ tags:
 
 # Introduction
 
-Blockchain is the buzzword of the year, and as this new technology slowly matures, from banking to supply chain logistics; it is ready for disruption. And in healthcare, in particular, there’s a massive opportunity for the blockchain revolution to disrupt and lead a digital transformation. From medical records to pharmaceutical supply chains to smart contracts for payment distribution, there are plenty of opportunities to leverage this technology. 
+Blockchain is the buzzword of the year, and as this new technology slowly matures, from banking to supply chain logistics, it is ready for disruption. And in healthcare, in particular, there’s a massive opportunity for the blockchain revolution to disrupt and lead a digital transformation. From medical records to pharmaceutical supply chains to smart contracts for payment distribution, there are plenty of opportunities to leverage this technology. 
 
 The healthcare industry suffers from an inability to share and exchange information because of complicated agreements between shareholders. The outcome is an inefficient, outdated health care payment process that leads to millions of waste spent resulting from claim errors and disputes. 
 
@@ -72,7 +72,7 @@ Companies like Chronicled, Block pharma, and Modum are already working towards m
 
 ## 3. Genomic Market 
 
-Companies like EncrypGen and Nebula Genomics are building blockchain platforms to enable people to share genomic data safely and securely on a new emerging market. They bet that in the future, opportunities around personal genome sequencing will create a data market worth billions of dollars. And what’s the best technology to solve data security issues and to ensure that data gets from the source to its end-user with no middlemen? You are right; it is the blockchain. These companies aim to use blockchain technology to enhance genomic data protection, enable buyers to efficiently acquire genomic data, and address the challenges of genomic big data. 
+Companies like EncrypGen and Nebula Genomics are building blockchain platforms to enable people to share genomic data safely and securely on a new emerging market. They bet that in the future, opportunities around personal genome sequencing will create a data market worth billions of dollars. And what’s the best technology to solve data security issues and to ensure that data gets from the source to its end-user with no middlemen? You are right, it is the blockchain. These companies aim to use blockchain technology to enhance genomic data protection, enable buyers to efficiently acquire genomic data, and address the challenges of genomic big data. 
 These companies are just a few of the dozens of startups that aim to use blockchain to disrupt healthcare. And as it usually is, their marketing is great They promise big, but the jury’s still out on which ones will remain only promises, and which are the few that will become the next big thing.
 
 ## 4. Medical Errors 

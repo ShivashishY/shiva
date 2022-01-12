@@ -68,7 +68,7 @@ Remember, it's one thing using a social media channel like Twitter, Facebook, Yo
 
 **8. Clubhouse**
 
-One of the newest social media platforms to break onto the scene, Clubhouse is an invite-only, audio-only app where users can host conversations in chat rooms. In short: Clubhouse is an **audio-based social media app**. The company describes itself as _&quot;a new type of social product based on voice that allows people everywhere to talk, tell stories, develop ideas, deepen friendships, and meet interesting new people around the world.&quot;_
+One of the newest social media platforms to break onto the scene, Clubhouse is an invite-only, audio-only app where users can host conversations in chat rooms. In short: Clubhouse is an **audio-based social media app**. The company describes itself as &quot;a new type of social product based on voice that allows people everywhere to talk, tell stories, develop ideas, deepen friendships, and meet interesting new people around the world.&quot;
 
 **9. Tumblr**
 
