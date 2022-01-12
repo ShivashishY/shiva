@@ -121,4 +121,3 @@ Distributed ledger technology enables the signing of leases and payments. It rem
 # How does blockchain affect investor and tenant identities?
 
 Blockchain-based digital identity will be powerful in many industries, consumer applications and within the public sector. Mutant blockchain-based KYC/AML processes allow tenant and investor identity to simplify background checks, reduce costs, and increase security. Decentralized identity enables anyone to prove ownership of a property while creating the documents (insurance, proof of identity, credit history) easily qualified by the required parties.
-
