@@ -110,14 +110,15 @@ Property development almost always occurs without valuable input from the commun
 
 Large construction projects have become difficult to manage with fragmented subcontracting and procurement practices and lack of supply chain transparency. A blockchain platform can make procurement easier for suppliers and subcontractors with reputation management, encouraging higher performance. Smart contracts can automate contract agreements and payment terms to enhance financial management. Blockchain can prove the authenticity of premium goods by associating products with non-fake tokens and using these as digital blockchain certificates. Finally, blockchain can streamline project management by digitizing end-to-end processes. This will enable construction managers to securely track and share project status with key stakeholders and reduce barriers to more efficient project management.
 
-# **How does blockchain affect investor and tenant identities?**
-
-Blockchain-based digital identity will be powerful in many industries, consumer applications and within the public sector. Mutant blockchain-based KYC/AML processes allow tenant and investor identity to simplify background checks, reduce costs, and increase security. Decentralized identity enables anyone to prove ownership of a property while creating the documents (insurance, proof of identity, credit history) easily qualified by the required parties.
-
-# **How does blockchain influence payments and leasing?**
-
-Distributed ledger technology enables the signing of leases and payments. It removes the need for manual reconciliation and automates rental and dividend payments to property owners. Smart contracts can automate other types of payments and fees to encourage good behavior from tenants, landlords and service providers.
-
 # How does blockchain impact real-time accounting?
 
 With asset ownership and cash flows recorded on-chain, investors and asset owners benefit from automated and near-instant accounting. In the future, preparation of annual financial statements, such as balance sheet, statement of cash flows, or income statement will be conducted with the capability of real-time audit. This has enabled many breakthroughs in compliance, regulatory oversight and investor relations.
+
+# How does blockchain affect investor and tenant identities?
+
+Blockchain-based digital identity will be powerful in many industries, consumer applications and within the public sector. Mutant blockchain-based KYC/AML processes allow tenant and investor identity to simplify background checks, reduce costs, and increase security. Decentralized identity enables anyone to prove ownership of a property while creating the documents (insurance, proof of identity, credit history) easily qualified by the required parties.
+
+# How does blockchain influence payments and leasing?
+
+Distributed ledger technology enables the signing of leases and payments. It removes the need for manual reconciliation and automates rental and dividend payments to property owners. Smart contracts can automate other types of payments and fees to encourage good behavior from tenants, landlords and service providers.
+
