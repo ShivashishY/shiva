@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is nft
+slug: what-is-nft
   
 tags:
 -   blockchain

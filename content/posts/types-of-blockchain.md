@@ -1,4 +1,24 @@
-## Types of Blockchain Explained.
+---
+date: 2022-01-07
+title: Types of Blockchain Explained
+
+template: post
+hidden: false
+
+
+slug: typse-of-blockchain
+  
+tags:
+-   blockchain
+-   crypto
+-   technology
+-   bitcoing
+-   transactions
+---
+<!-- more -->
+
+
+<!-- more -->
 
 ## Type
 Currently, there are at least four types of blockchain networks–public blockchains, private blockchains, consortium blockchains, and hybrid blockchains. 

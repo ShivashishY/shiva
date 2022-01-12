@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: blockchain changing cbp
+slug: blockchain-changing-cbp
   
 tags:
 -   blockchain

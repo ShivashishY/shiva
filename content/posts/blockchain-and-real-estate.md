@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and real estate
+slug: blockchain-and-real-estate
   
 tags:
 -   blockchain

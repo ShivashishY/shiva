@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what is ethereum two
+slug: what-is-ethereum-two
   
 tags:
 -   blockchain

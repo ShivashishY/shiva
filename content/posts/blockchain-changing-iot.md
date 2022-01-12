@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: blockchain changing iot
+slug: blockchain-changing-iot
   
 tags:
 -   blockchain

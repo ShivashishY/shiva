@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: blockchain anti money laundering
+slug: blockchain-anti-money-laundering
   
 tags:
 -   blockchain

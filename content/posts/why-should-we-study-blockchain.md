@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: why should we study blockchain
+slug: why-should-we-study-blockchain
   
 tags:
 -   blockchain
@@ -52,6 +52,6 @@ Many industries and sectors such as healthcare, real estate, aviation, energy an
 
 ## 5. Investment and Trading 
 
-Blockchain technology is the backbone of cryptocurrencies. Which has emerged as a lucrative investment option. Thus, if investment is on your mind, blockchain is something you cannot miss. 
+Blockchain technology is the backbone of cryptocurrencies. Which has emerged as a lucrative investment option. Thus, if investment is on your mind, blockchain is something you cannot miss.
 
-Now that you know what makes blockchain a big deal, hop in now before it's too late. 
+Now that you know what makes blockchain a big deal, hop in now before it's too late.

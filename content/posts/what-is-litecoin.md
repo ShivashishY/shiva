@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is litecoin
+slug: what-is-litecoin
   
 tags:
 -   blockchain

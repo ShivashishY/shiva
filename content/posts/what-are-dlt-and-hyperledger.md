@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what are dlt and hyperledger
+slug: what-are-dlt-and-hyperledger
   
 tags:
 -   dlt

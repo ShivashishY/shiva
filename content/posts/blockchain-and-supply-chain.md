@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and supply chain
+slug: blockchain-and-supply-chain
   
 tags:
 -   blockchain

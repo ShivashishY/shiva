@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what is polkadot
+slug: what-is-polkadot
   
 tags:
 -   blockchain

@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and voting system
+slug: blockchain-and-voting-system
   
 tags:
 -   blockchain

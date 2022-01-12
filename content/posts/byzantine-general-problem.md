@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: byzantine general problem
+slug: byzantine-general-problem
   
 tags:
 -   blockchain

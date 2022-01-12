@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is web three
+slug: what-is-web-three
   
 tags:
 -   web 3.0

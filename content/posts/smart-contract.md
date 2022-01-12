@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: smart contract
+slug: smart-contract
   
 tags:
 -   blockchain

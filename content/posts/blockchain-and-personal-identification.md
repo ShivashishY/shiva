@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and personal identification
+slug: blockchain-and-personal-identification
   
 tags:
 -   blockchain

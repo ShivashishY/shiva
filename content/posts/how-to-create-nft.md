@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: how to create nft
+slug: how-to-create-nft
   
 tags:
 -   blockchain

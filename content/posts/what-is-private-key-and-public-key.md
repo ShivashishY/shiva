@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what is private key and public key
+slug: what-is-private-key-and-public-key
   
 tags:
 -   blockchain

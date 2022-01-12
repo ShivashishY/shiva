@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: utxo in bitcoin
+slug: utxo-in-bitcoin
   
 tags:
 -   blockchain

@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: fee charged in cryptocurrency trading
+slug: fee-charged-in-cryptocurrency-trading
   
 tags:
 -   blockchain

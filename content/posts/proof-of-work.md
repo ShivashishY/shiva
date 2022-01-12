@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: proof of work
+slug: proof-of-work
   
 tags:
 -   blockchain

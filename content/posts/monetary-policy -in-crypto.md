@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: monetary policy in crypto
+slug: monetary-policy-in-crypto
   
 tags:
 -   blockchain

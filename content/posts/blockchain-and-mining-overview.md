@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and mining overview
+slug: blockchain-and-mining-overview
   
 tags:
 -   blockchain

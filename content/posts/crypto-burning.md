@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: crypto burning
+slug: crypto-burning
   
 tags:
 -   blockchain

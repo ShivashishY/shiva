@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: how blockchain changing music industry
+slug: how-blockchain-changing-music-industry
   
 tags:
 -   blockchain

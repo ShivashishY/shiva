@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: hashing algorithm blockchain
+slug: hashing-algorithm-blockchain
   
 tags:
 -   hashing algorithm

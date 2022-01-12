@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: top five crypto
+slug: top-five-crypto
   
 tags:
 -   blockchain

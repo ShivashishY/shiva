@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: five metaverse crypto can give more profit
+slug: five-metaverse-crypto-can-give-more-profit
   
 tags:
 -   blockchain

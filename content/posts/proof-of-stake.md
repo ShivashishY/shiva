@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: proof of stake
+slug: proof-of-stake
   
 tags:
 -   blockchain

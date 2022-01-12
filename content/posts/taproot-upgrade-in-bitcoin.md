@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: taproot upgrade in bitcoin
+slug: taproot-upgrade-in-bitcoin
   
 tags:
 -   blockchain

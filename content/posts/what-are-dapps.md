@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what are dapps
+slug: what-are-dapps
   
 tags:
 -   blockchain

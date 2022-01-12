@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is bitcoin
+slug: what-is-bitcoin
   
 tags:
 -   blockchain

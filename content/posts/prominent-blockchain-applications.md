@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: prominent blockchain applications
+slug: prominent-blockchain-applications
   
 tags:
 -   blockchain

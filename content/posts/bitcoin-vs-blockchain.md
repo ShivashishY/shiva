@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: bitcoin vs blockchain
+slug: bitcoin-vs-blockchain
   
 tags:
 -   blockchain

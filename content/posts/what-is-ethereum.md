@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is ethereum
+slug: what-is-ethereum
   
 tags:
 -   blockchain

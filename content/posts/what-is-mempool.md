@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: what is mempool
+slug: what-is-mempool
   
 tags:
 -   blockchain

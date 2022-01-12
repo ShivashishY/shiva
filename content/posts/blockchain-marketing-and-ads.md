@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain marketing and ads
+slug: blockchain-marketing-and-ads
   
 tags:
 -   blockchain

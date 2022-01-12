@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: what is bitcoin mining and how to do it
+slug: what-is-bitcoin-mining-and-how-to-do-it
   
 tags:
 -   bitcoin

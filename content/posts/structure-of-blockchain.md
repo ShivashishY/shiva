@@ -7,7 +7,7 @@ template: post
 hidden: false
 
 
-slug: structure of blockchain
+slug: structure-of-blockchain
   
 tags:
 -   blockchain

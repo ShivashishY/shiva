@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: how cryptocurrency wallets work
+slug: how-cryptocurrency-wallets-work
   
 tags:
 -   blockchain

@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: p2p network in blockchain
+slug: p2p-network-in-blockchain
   
 tags:
 -   blockchain

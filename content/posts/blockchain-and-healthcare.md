@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: blockchain and healthcare
+slug: blockchain-and-healthcare
   
 tags:
 -   blockchain
