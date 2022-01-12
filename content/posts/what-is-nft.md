@@ -82,8 +82,5 @@ Hopefully, you have got to know a lot about NFT? How does NFT work? How can NFT 
 
 If you liked this information and if you get to know something new, then do not forget to share it, I will continue to bring information related to the world of Cryptocurrency.
 
-If there is any question related to NFT or Cryptocurrency in your mind, then you can ask to me by commenting. I will be happy to answer your questions.
-
-
 
 
