@@ -2,7 +2,7 @@
 date: 2021-12-27
 title: Blockchain Tutorial
   
-slug: blockchain tutorial
+slug: blockchain-tutorial
 template: post
 description: guide for blockchain learning
 thumbnail: '../thumbnails/bctut.png'

@@ -77,7 +77,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'shivashishmca@gmail.com' },
+                    { author: 'shivashishmca@gmail.com (Shivashish Yadav)' },
                   ],
                 })
               })

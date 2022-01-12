@@ -62,5 +62,3 @@ But in PoS, the miner does not get any block reward, he only gets the transactio
 - In the PoW system, if the hacker wants to attack the entire network, then he should have 51% mining power of the entire network, then he will attack this system.
 In the same PoS, the hacker will have to stake 51% of the coins to attack the entire network, which is an impossible task, for this the hacker will need a lot of money.
 Same if he gets that money, and he buys up to 51% of the coins from the open market, then because of that the value of those coins will also increase, and in the end he will have to spend as much as he will not even benefit.
-
-

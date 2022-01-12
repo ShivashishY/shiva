@@ -6,7 +6,7 @@ template: post
 hidden: false
 
 
-slug: actual mining transactions
+slug: actual-mining-transactions
   
 tags:
 -   blockchain
