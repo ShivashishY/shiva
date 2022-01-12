@@ -43,15 +43,15 @@ We can say that a blockchain is a digitized, decentralized, public ledger.
 
 **Understand Blockchain Technology in simple words by this example**
 
-Let's say you have a file of transactions (a &quot;node&quot;) on your computer (a &quot;ledger&quot;). Two government accountants (which we call &quot;miners&quot;) also have the same file in their system (hence they are &quot;distributed&quot;). As soon as you make a transaction, your computer e-mails both of those accountants to inform them.
+Let's say you have a file of transactions (a  node ) on your computer (a  ledger ). Two government accountants (which we call  miners ) also have the same file in their system (hence they are  distributed ). As soon as you make a transaction, your computer e-mails both of those accountants to inform them.
 
-Every accountant wants to first check whether you can afford it or not (and in return, they can get their salary which is &quot;Bitcoins&quot; or not).
+Every accountant wants to first check whether you can afford it or not (and in return, they can get their salary which is  Bitcoins  or not).
 
-Whichever of these two checks first and finally validates it and presses &quot;REPLY ALL&quot;, while with this he also attaches his logic to verify that transaction, and it is called &quot;Proof of Work&quot;. Is called.
+Whichever of these two checks first and finally validates it and presses  REPLY ALL , while with this he also attaches his logic to verify that transaction, and it is called  Proof of Work . Is called.
 
-If in the meantime, if that second accountant also agrees, then everyone updates their files of transactions….. This whole process or concept is called &quot;Blockchain&quot; technology.
+If in the meantime, if that second accountant also agrees, then everyone updates their files of transactions….. This whole process or concept is called  Blockchain  technology.
 
-Therefore, blockchain is such an incorruptible digital ledger of transactions that is programmed to record virtually everything. All the list of records that are in the blockchain is called &quot;block&quot;. Therefore, this blockchain is always a continuously growing list of records that are linked and secured.
+Therefore, blockchain is such an incorruptible digital ledger of transactions that is programmed to record virtually everything. All the list of records that are in the blockchain is called  block . Therefore, this blockchain is always a continuously growing list of records that are linked and secured.
 
 **Who Invented Blockchain Technology?**
 
@@ -79,7 +79,7 @@ Along with this, it can also be used in voting platforms, for titles and deed ma
 
 **How Secure is Blockchain?**
 
-In this way, nothing on the internet is secure. On the other hand, if we talk about Blockchain technology, then it is &quot;unhackable&quot; to a great extent in comparison to the rest of the technology. To do any transaction in Blockchain, all the nodes of the entire network will have to agree, only then that transaction will be valid. Here, no single entity can say whether the transaction has taken place or not.
+In this way, nothing on the internet is secure. On the other hand, if we talk about Blockchain technology, then it is  unhackable  to a great extent in comparison to the rest of the technology. To do any transaction in Blockchain, all the nodes of the entire network will have to agree, only then that transaction will be valid. Here, no single entity can say whether the transaction has taken place or not.
 
 To hack it, you will not have to hack only one system like a bank, but all the systems located in the whole network will have to be hacked, so hacking is not such an easy thing in this technology.
 
@@ -95,7 +95,7 @@ Similarly, when blockchain technology came a new time, bitcoin was also the firs
 
 **Internet Technology vs Blockchain Technology**
 
-If we talk about both technology, then the Internet allows computers to exchange information; Whereas Blockchain allows computers to record information.
+If we talk about both technology, then the Internet allows computers to exchange information. Whereas Blockchain allows computers to record information.
 
 Both use many computers (nodes).
 
@@ -137,7 +137,7 @@ Now you must have understood the basic concept of this technology, so let us now
 
 **4. Symbiont: –** It provides better smart securities in Blockchain.
 
-**5. Bitnation:** This is a &quot;Governance 2.0&quot; initiative that seeks to establish DoItYourself governance by working with a collaborative platform.
+**5. Bitnation:** This is a  Governance 2.0  initiative that seeks to establish DoItYourself governance by working with a collaborative platform.
 
 **6. ChainLink:** It uses blockchain technology to verify and validate the authenticity and title of real-world items.
 

@@ -47,7 +47,7 @@ ________________________________________________________________________________
 * Issues: "French law makes it mandatory to keep some connection data for one year" 
 ### [Privacy Policy](https://about.qwant.com/legal/privacy/)
 ### [Terms Of Service](https://tosdr.org/#qwant)
-### Criticism: [Link1](https://www.reddit.com/r/privacy/comments/bstxms/qwants_future_regarding_ethics/) & [Link2](https://forum.vivaldi.net/topic/35097/ethics-a-heavy-suspicion-towards-the-qwant-search-engine)
+### Criticism: [Link1](https://www.reddit.com/r/privacy/comments/bstxms/qwants_future_regarding_ethics/)  and [Link2](https://forum.vivaldi.net/topic/35097/ethics-a-heavy-suspicion-towards-the-qwant-search-engine)
 ______________________________________________________________________________________________________
 ![](../images/post-images/search-engine-alternative/ger.png)
 ## [MetaGer](https://metager.org/)

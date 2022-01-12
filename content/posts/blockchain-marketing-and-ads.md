@@ -25,7 +25,7 @@ tags:
 
 Cryptocurrencies, and especially Bitcoin, is a solid technology. Behind all of this technology is blockchain. I know most of you already probably know what blockchain is. I'm going to quickly explaining what is blockchain for you. 
 
-&quot;Essentially a decentralized unhackable database where everyone has a copy of the same database. there's no middleman. it's programmed to record, not just financial transactions like Bitcoin. But virtually everything of value. That could be an ad deliver, contract, signed music, records of the hospital. Any of these transactions will be recorded in the blockchain and everyone has access our copy of the same database.&quot;
+Essentially a decentralized unhackable database where everyone has a copy of the same database. there's no middleman. it's programmed to record, not just financial transactions like Bitcoin. But virtually everything of value. That could be an ad deliver, contract, signed music, records of the hospital. Any of these transactions will be recorded in the blockchain and everyone has access our copy of the same database. 
 
 # **So why should we care, or what makes blockchain a unique technology?**
 
@@ -44,7 +44,7 @@ So blockchain potentially end this. It can make advertising more transparent by 
 
 Another enormous problem in the marketing advertising space is that everyone hates ads. Most ads maybe not the cool, expensive, super ones. Right? But we all hate ads. Display ads, YouTube ads, no one likes ads. Right?
 
-There are too many of these ads out there, and the reason there are too many of them is that marketers don't really know what we want. Even they don't know what stage of the buying process we are. So there is a saying in marketing, **&quot;you know, let's throw it at the wall and see what sticks. Guess what the wall is? The wall is you&quot;** Marketers throw it at you and see what works or what doesn't, and that's how it works. Nowadays, in this data-driven world. This is what they do. The problem in fits itself when you see the same display ad for some brand following you from one website to another. Even though you already made a booking for the same hotel 3 days ago. I'm sure we've all been there. Right?
+There are too many of these ads out there, and the reason there are too many of them is that marketers don't really know what we want. Even they don't know what stage of the buying process we are. So there is a saying in marketing, ** you know, let's throw it at the wall and see what sticks. Guess what the wall is? The wall is you ** Marketers throw it at you and see what works or what doesn't, and that's how it works. Nowadays, in this data-driven world. This is what they do. The problem in fits itself when you see the same display ad for some brand following you from one website to another. Even though you already made a booking for the same hotel 3 days ago. I'm sure we've all been there. Right?
 
 This is where blockchain technology can come in and prevent the same display ad from being over-served to anyone. Ensuring that optimal frequency of ad serving for each consumer. There are some serious flaws in display ads. The way it is from the perspective of advertisers. They can be expensive, low engagement, complicated to understand and manage. Also the inventory is only limited to two companies.
 
@@ -62,4 +62,4 @@ Blockchain could be a solution for this. A good example of a blockchain startup 
 
 it's important to remember that some of these scenarios are for cases and early stage technology that is still under development. Blockchain, though, is here to stay. Some of the brightest minds are working on this space.
 
-Many companies are building blockchain teams and many startups are raising a ton of money in the space, and blockchain is here to stay and will certainly impact marketing and advertising .
+Many companies are building blockchain teams and many startups are raising a ton of money in the space, and blockchain is here to stay and will certainly impact marketing and advertising.

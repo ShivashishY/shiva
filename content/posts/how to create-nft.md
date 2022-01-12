@@ -46,4 +46,4 @@ In October 2014, the MIT Bitcoin Club, with funding from MIT alumni, gave gradua
 
 ## Adoption decision
 
-The motivation for adopting blockchain technology (one aspect of innovation adoption) has been examined by researchers. Jensen et al. Provided a framework for analysis. Koens & Poll pointed out that adoption can be driven heavily by non-technical factors. Based on the behavioral model, Lid discusses the difference between adoption at the individual level and at the organizational level.
+The motivation for adopting blockchain technology (one aspect of innovation adoption) has been examined by researchers. Jensen et al. Provided a framework for analysis. Koens  and Poll pointed out that adoption can be driven heavily by non-technical factors. Based on the behavioral model, Lid discusses the difference between adoption at the individual level and at the organizational level.

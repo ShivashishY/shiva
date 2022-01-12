@@ -27,7 +27,7 @@ Let's take a look at what you should consider when choosing a social media chann
 
 Different platforms offer different advantages. Social media goals align with your overall business goals. So when you're getting your **social media goals** , a few platforms will stand out as the best ones to reach those goals.
 
-Ask yourself: _&quot;What do I want to achieve on social media?&quot;_
+Ask yourself: _ What do I want to achieve on social media? _
 
 According to marketers, their top goals in social are to:
 

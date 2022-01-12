@@ -37,7 +37,7 @@ Some of you must have heard about Bitcoin and those who know nothing
 About Bitcoin, today they will know about this article. Yes, today I am going.
 to tell you about what is bitcoin.
 
-## **What is Bitcoin & History**
+## **What is Bitcoin  and History**
 
 Bitcoin is a decentralized currency, so it is not tied to any
 Specific country or currency. It is a currency built on top of the blockchain.

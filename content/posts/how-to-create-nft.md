@@ -23,7 +23,7 @@ tags:
 
 ## How to Create Non-Fungible Token (NFT) on Binance Smart Chain?
 
-Anything that can be traded for a surprising amount of dollars certainly attracts public interest, especially if it is something digital that can be created and owned by anyone. The same event powered the crypto-craze for years, and is now fueling the NFT boom. If you are a digital artist, art collector, or crypto enthusiast, you may have heard the NFT buzz that is making news with headlines like &quot;Digital art sold by artist Beeple for $69 million&quot;.
+Anything that can be traded for a surprising amount of dollars certainly attracts public interest, especially if it is something digital that can be created and owned by anyone. The same event powered the crypto-craze for years, and is now fueling the NFT boom. If you are a digital artist, art collector, or crypto enthusiast, you may have heard the NFT buzz that is making news with headlines like  Digital art sold by artist Beeple for $69 million .
 
 Not only global artists like Beeple, but many digital artists are taking advantage of the NFT marketplace to make huge profits from their artworks. Twitter CEO Jack Dorsey sold his first tweet as an NFT for over $2.9 million. The flexibility that NFTs can be anything digital, be it images, music, videos, images, and that virtually anyone can create and trade them, has made the NFT business very lucrative. So, if you are also a creator of digital content, you can also create an NFT for it, and trade it. 
 
