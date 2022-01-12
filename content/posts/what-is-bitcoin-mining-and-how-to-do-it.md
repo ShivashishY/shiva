@@ -29,7 +29,7 @@ Do you know what is **Bitcoin Mining**? Many would know that the rate of Bitcoin
 
 If seen, this Bitcoin Mining does both things, as it adds the new transaction to the blockchain and also releases the newly created Bitcoin. Bitcoin Mining mainly comprises compiling recent transactions and preparing blocks and solving computationally hard puzzles.
 
-Here is, the first participant who solves that puzzle places the next block in the blockchain, and he can claim his prize. As a reward, he gets Bitcoin, which is nothing but Transaction Fees. Today we will know what exactly this Bitcoin Mining is and how it works. Then what&#39;s the delay, let&#39;s start.
+Here is, the first participant who solves that puzzle places the next block in the blockchain, and he can claim his prize. As a reward, he gets Bitcoin, which is nothing but Transaction Fees. Today we will know what exactly this Bitcoin Mining is and how it works. Then what's the delay, let's start.
 
 **WHAT IS BITCOIN MINING**
 ======================
@@ -57,7 +57,7 @@ Bitcoin miners can never cheat by increasing their fees and rewards or processin
 
 I do not think at all that the power used in bitcoin mining is a waste, because if a payment system can be run cheaply and smoothly with the use of any power, then it is believed that the power used in bitcoin mining It is a waste that is completely wrong.
 
-As we all know that like any other payment service, some service costs will come in the processing of Bitcoin. If seen, today&#39;s door payment services like Banks, Credit Card, etc. demand very high service costs. And the power that is spent in this is not transparent and cannot be measured in Bitcoin.
+As we all know that like any other payment service, some service costs will come in the processing of Bitcoin. If seen, today's door payment services like Banks, Credit Card, etc. demand very high service costs. And the power that is spent in this is not transparent and cannot be measured in Bitcoin.
 
 Bitcoin mining has been designed in such a way that over time there has been specialized hardware that uses less power, but the cost of bitcoin mining is always proportional according to the demand. Now new research is going on how to minimize this mining power so that an Energy Efficient Bitcoin Mining System can be made.
 
@@ -73,9 +73,9 @@ Through this, a person cannot change the blockchain or roll back his own transac
 
 When Bitcoin first started, there were few miners present, due to which anyone was searching for new blocks from the CPU of their personal computer. As Bitcoin became famous, more and more people started mining, which made it even more difficult to find a new block.
 
-Talking about today&#39;s door, nowadays advanced Specialized Hardware has come into the market so that mining can be done easily. If my opinion is to be believed, then this is a little patient work. Here one cannot become rich overnight, you may have to work very hard for this.
+Talking about today's door, nowadays advanced Specialized Hardware has come into the market so that mining can be done easily. If my opinion is to be believed, then this is a little patient work. Here one cannot become rich overnight, you may have to work very hard for this.
 
-If you haven&#39;t invested in cryptocurrency yet, then believe me you are losing a lot of money. You probably know that keeping money in the bank reduces its value day by day. In such a situation, invest some of your money in cryptocurrency.
+If you haven't invested in cryptocurrency yet, then believe me you are losing a lot of money. You probably know that keeping money in the bank reduces its value day by day. In such a situation, invest some of your money in cryptocurrency.
 
 ## The End!
 

@@ -33,7 +33,7 @@ But a lot of hype was generated about Blockchain technology because they felt th
 
 The pace of adoption of Blockchain is indeed very slow, but technology experts believe that this speed is going to increase gradually in the coming time, which is good news for us. In the future, this technology is going to change the whole world.
 
-That&#39;s why today I thought that why not provide complete information about this new Blockchain technology to you people so that you will be able to understand it easily. Then without delay, let&#39;s start and understand what is Blockchain.
+That's why today I thought that why not provide complete information about this new Blockchain technology to you people so that you will be able to understand it easily. Then without delay, let's start and understand what is Blockchain.
 
 **What is blockchain technology?**
 
@@ -43,7 +43,7 @@ We can say that a blockchain is a digitized, decentralized, public ledger.
 
 **Understand Blockchain Technology in simple words by this example**
 
-Let&#39;s say you have a file of transactions (a &quot;node&quot;) on your computer (a &quot;ledger&quot;). Two government accountants (which we call &quot;miners&quot;) also have the same file in their system (hence they are &quot;distributed&quot;). As soon as you make a transaction, your computer e-mails both of those accountants to inform them.
+Let's say you have a file of transactions (a &quot;node&quot;) on your computer (a &quot;ledger&quot;). Two government accountants (which we call &quot;miners&quot;) also have the same file in their system (hence they are &quot;distributed&quot;). As soon as you make a transaction, your computer e-mails both of those accountants to inform them.
 
 Every accountant wants to first check whether you can afford it or not (and in return, they can get their salary which is &quot;Bitcoins&quot; or not).
 
@@ -61,7 +61,7 @@ Satoshi, the creator of Bitcoin, suddenly disappeared in the year 2011, leaving 
 
 Many believe that this is not a person named Satoshi Nakamoto, it is just a fictional character. By the way, the correct information is not available from anyone about its veracity.
 
-The invention of the blockchain for bitcoin is the first digital currency that can solve the double-spending problem without the help of any trusted central authority or central server. That&#39;s why this Blockchain Technology has also been the inspiration for many other applications.
+The invention of the blockchain for bitcoin is the first digital currency that can solve the double-spending problem without the help of any trusted central authority or central server. That's why this Blockchain Technology has also been the inspiration for many other applications.
 
 **Why should we know about Blockchain?**
 
@@ -99,7 +99,7 @@ If we talk about both technology, then the Internet allows computers to exchange
 
 Both use many computers (nodes).
 
-Let&#39;s know something new about the Internet and Blockchain.
+Let's know something new about the Internet and Blockchain.
 
 The first generation of the Digital Revolution brought us the Internet of Information. Whereas the second generation — which is powered by blockchain technology — presented us with the Internet of Value: a new platform that will reshape the world of business and make the old order of human affairs even better.
 
@@ -107,7 +107,7 @@ Blockchain is such a vast, global distributed ledger and database which is runni
 
 Here mass collaboration is needed to establish trust and some clever code to implement it, whereas, in the old ways, powerful intermediaries such as governments and banks are needed.
 
-That&#39;s why we can say that Blockchain technology is made by us, works for us and we control it, which makes it very secure and reliable.
+That's why we can say that Blockchain technology is made by us, works for us and we control it, which makes it very secure and reliable.
 
 **The Technology Behind Blockchain Technology**
 
@@ -117,7 +117,7 @@ The main technology behind Blockchain is mainly the three technologies given bel
 
 2. P2P Network (Peer-2-Peer)
 
-3. Program (the blockchain&#39;s protocol)
+3. Program (the blockchain's protocol)
 
 **Why do we require blockchain technology?**
 
@@ -131,9 +131,9 @@ Now you must have understood the basic concept of this technology, so let us now
 
 **1. Follow My Vote:** It wants to change the way we vote and become the first open-source online voting solution in the world.
 
-**2. Arcade City:-** This is a true decentralized ride-sharing service which is also known as the &#39;Uber killer&#39;.
+**2. Arcade City:-** This is a true decentralized ride-sharing service which is also known as the 'Uber killer'.
 
-**3. ShoCard: –** It stores your identity in Bitcoin&#39;s blockchain so that you can be easily verified.
+**3. ShoCard: –** It stores your identity in Bitcoin's blockchain so that you can be easily verified.
 
 **4. Symbiont: –** It provides better smart securities in Blockchain.
 
@@ -169,7 +169,7 @@ Data once entered the blockchain becomes immutable, which can no longer be chang
 
 Although Blockchain technology has many advantages, still it also has some drawbacks, which let us know.
 
-**Requires a lot of power:** The operation of these blockchains requires a lot of computing power, due to which the need for electricity is very high. If we look at the situation of today&#39;s climate change, then it is not so easy in favor of any developing country because they have their own needs too. That&#39;s why it is true only for developed nations.
+**Requires a lot of power:** The operation of these blockchains requires a lot of computing power, due to which the need for electricity is very high. If we look at the situation of today's climate change, then it is not so easy in favor of any developing country because they have their own needs too. That's why it is true only for developed nations.
 
 **Security of private key:** This private key should always be kept secret because if third parties come to know about them, then it is such a thing that you have given control of all your bitcoin in their hands. Apart from this, the private key should be backed up and protected from accidental loss, because if it is lost once then no one else can recover these funds and they will be lost forever.
 
@@ -177,7 +177,7 @@ Although Blockchain technology has many advantages, still it also has some drawb
 
 **My opinion about Blockchain**
 
-Blockchain can become a very significant part of our financial and technological digital future. This &#39;blockchain&#39; technology, which lies behind bitcoin, has proved so far how big this technology is, and it has the potential to create a new world of technology.
+Blockchain can become a very significant part of our financial and technological digital future. This 'blockchain' technology, which lies behind bitcoin, has proved so far how big this technology is, and it has the potential to create a new world of technology.
 
 This in itself is a big thing like the internet. This is such a wave of innovation that can keep common people like us away from these financial complexities., With this, it can free us to exchange goods and services with anyone in the whole world so that we will not have to go through these other corporate intermediaries.
 

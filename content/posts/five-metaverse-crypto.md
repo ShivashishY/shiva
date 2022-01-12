@@ -1,6 +1,6 @@
 ---
 date: 2022-01-12
-title: These 5 Crypto Coins Can Give You Tremendous Returns.
+title: These 5 Crypto Coins Can Give You Tremendous Returns
 
 template: post
 hidden: false

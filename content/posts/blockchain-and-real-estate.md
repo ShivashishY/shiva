@@ -26,21 +26,21 @@ tags:
 
 ## Introduction
 
-The Real estate is an incredibly complicated task for anyone who&#39;s ever bought land or a home. It&#39;s time-consuming, complex, risky and, above all else, it&#39;s expensive.
+The Real estate is an incredibly complicated task for anyone who's ever bought land or a home. It's time-consuming, complex, risky and, above all else, it's expensive.
 
-Home inspectors, real estate agents, banks, local governments, everyone needs to check and sign off on your transaction before it can get done. And all of them take a cut. **We&#39;re going to quickly outline how blockchain technology can make buying and selling real estate much easier**.
+Home inspectors, real estate agents, banks, local governments, everyone needs to check and sign off on your transaction before it can get done. And all of them take a cut. **We're going to quickly outline how blockchain technology can make buying and selling real estate much easier**.
 
-When buying real estate, the rules can daunt. They vary wildly depending on what city, state or country you&#39;re looking to buy in. what type of property you are hoping to buy? And how you&#39;re going to buy it? 
+When buying real estate, the rules can daunt. They vary wildly depending on what city, state or country you're looking to buy in. what type of property you are hoping to buy? And how you're going to buy it? 
 
-These complexities and regulations require multiple middlemen to get involved. You&#39;re going to be paying a large cut at every turn. Because it&#39;s just too complex for most people to navigate alone. That&#39;s where the blockchain comes in. If we were to codify local provincial and national housing rules and regulations. On the blockchain, we could use smart contracts to drastically simplify the process.
+These complexities and regulations require multiple middlemen to get involved. You're going to be paying a large cut at every turn. Because it's just too complex for most people to navigate alone. That's where the blockchain comes in. If we were to codify local provincial and national housing rules and regulations. On the blockchain, we could use smart contracts to drastically simplify the process.
 
-A prospective seller would just send a location desired price and some other ownership information to the contract. Then pulling from the database of rules and regulations around the sale of real estate. In the seller&#39;s location, the smart contract could generate contracts, deeds, tax, records. Anything required to make a sale of the house instantly. A prospective buyer could then meet with the seller to agree on pricing in terms, and then send their digital signature to the contract verifying their purchase, and updating all the documents as required.
+A prospective seller would just send a location desired price and some other ownership information to the contract. Then pulling from the database of rules and regulations around the sale of real estate. In the seller's location, the smart contract could generate contracts, deeds, tax, records. Anything required to make a sale of the house instantly. A prospective buyer could then meet with the seller to agree on pricing in terms, and then send their digital signature to the contract verifying their purchase, and updating all the documents as required.
 
 Now this would require some backend work having provable and verifiable identities on the blockchain. To ensure that the people are who they say they are, and there can be no disputes regarding signing. Similarly, the land would need to be securely and clearly registered on the blockchain to ensure easy transfer of ownership.
 
 # **What are the benefits of blockchain in real estate?**
 
-Commercial real estate is an important part of world economic property and transaction activity. According to an **MSCI report, the size of the professionally managed global real estate investment market grew from $7.4 trillion in 2016 to $8.5 trillion in 2017.** Today&#39;s real estate market comprises many tacit and independent networks, with transaction friction and ambiguity between existing systems. The Ethereum blockchain presents a practical solution to realize the following industry benefits:
+Commercial real estate is an important part of world economic property and transaction activity. According to an **MSCI report, the size of the professionally managed global real estate investment market grew from $7.4 trillion in 2016 to $8.5 trillion in 2017.** Today's real estate market comprises many tacit and independent networks, with transaction friction and ambiguity between existing systems. The Ethereum blockchain presents a practical solution to realize the following industry benefits:
 
 - Tokenization of real estate assets
 - Process efficiency for underlying industry operations

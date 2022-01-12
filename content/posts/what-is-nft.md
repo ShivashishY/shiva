@@ -22,7 +22,7 @@ tags:
 
 
 
-For a few years, NFT is getting a lot of discussion on the internet where the look of NFT is going on, you would have read and heard that a digital art of Beeple sold in /$69 million in NFT which is the world's highest NFT is sold. Inexpensive, Jack Dorsey whose Twitter is the first tweet sold for /$2.9 million.
+For a few years, NFT is getting a lot of discussion on the internet where the look of NFT is going on, you would have read and heard that a digital art of Beeple sold in /$69 million in NFT which is the world's highest NFT is sold. Inexpensive, Jack Dorsey whose Twitter is the first tweet sold for $2.9 million.
 But the question comes, what is this NFT? How can we sell NFT?
 
 We will discuss NFT in this article, so read this article from the beginning to the last so that whenever an NFT discusses, you can also talk about NFT.

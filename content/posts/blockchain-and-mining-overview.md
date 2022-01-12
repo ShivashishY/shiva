@@ -28,18 +28,18 @@ Blockchain is being considered a revolutionary technology for the economy of the
 ## What is Blockchain?
 
 - Just as the Internet was invented by connecting thousands and millions of computers, similarly long chains of data blocks (data) have been given the name of Blockchain.
-- Blockchain technology is an amalgamation of three different technologies, including the Internet, personal &#39;key&#39; (private key) cryptography, i.e. keeping information secret and controlling protocols.
+- Blockchain technology is an amalgamation of three different technologies, including the Internet, personal 'key' (private key) cryptography, i.e. keeping information secret and controlling protocols.
 - Secure chain cryptography was first discussed in 1991 by Stuart Haber and W. Scott Stornetta did the job. The following year, i.e. 1992, Bayer also joined hands with these two and improved its design, due to which assembling the blocks became easier.
-- Blockchain is a technology by which bitcoin and other cryptocurrencies operate. In simple words, it is a digital &#39;public ledger&#39;, in which every transaction is recorded.
+- Blockchain is a technology by which bitcoin and other cryptocurrencies operate. In simple words, it is a digital 'public ledger', in which every transaction is recorded.
 - Once a transaction is recorded in the blockchain, it can neither be deleted nor changed.
 - Because of the blockchain, transactions do not require a trusted third party such as a bank.
 - It records the details of each transaction in a ledger after it is verified by network-connected devices (mainly a series of computers, called nodes).
 
 ### My Input
 
-- Indeed, blockchain can also be compared to the state of the Internet in the 1990s. It is noteworthy that in the last two decades &#39;Internet of Information&#39; has changed our society.
+- Indeed, blockchain can also be compared to the state of the Internet in the 1990s. It is noteworthy that in the last two decades 'Internet of Information' has changed our society.
 - We are now entering an era where blockchain will also be able to do the same thing through the Internet of Trust, and the Internet of Value.
-- According to a report published in the American newspaper &#39;New York Times&#39;, blockchain technology has the potential to affect the entire world ecosystem and almost all the major central banks of the world are researching it.
+- According to a report published in the American newspaper 'New York Times', blockchain technology has the potential to affect the entire world ecosystem and almost all the major central banks of the world are researching it.
 
 ## What is the global situation?
 
@@ -57,7 +57,7 @@ Of course, bitcoin is just one application of this technology, the use of which 
 - Bajaj Finserv, the NBFC, a insurance company of the Bajaj Group, is using this technology to settle claims even before the information is filed by the concerned customers in travel insurance.
 - The company is using blockchain technology to improve customer service. This technique is closely monitored.
 - Bajaj Electrical Limited is also using blockchain technology to eliminate human intervention in the bill discounting process.
-- There is a consortium called &#39;Bancchain&#39; in India which includes about 27 banks in India (including State Bank of India and ICICI) and Middle-East nations as its members. The consortium is widely disseminating the benefits of blockchain technology to make businesses safer and faster.
+- There is a consortium called 'Bancchain' in India which includes about 27 banks in India (including State Bank of India and ICICI) and Middle-East nations as its members. The consortium is widely disseminating the benefits of blockchain technology to make businesses safer and faster.
 - In addition, the Institute for Development and Research in Banking Technology, a branch of the Reserve Bank of India, is developing a state-of-the-art platform for blockchain technology.
 - It has been started in India as a pilot project in Telangana and Andhra Pradesh, where it can be used as a safe repository of data. What is the global situation?
 
@@ -66,7 +66,7 @@ Of course, bitcoin is just one application of this technology, the use of which 
 - Blockchain is believed to have the potential to revolutionize the way many industries operate. This can make the process more democratic, secure, transparent, and efficient.
 - Blockchain is a technology that creates a decentralized database of transactions over a secure and easily accessible network.
 - This shared record of transactions in this virtual ledger can be viewed by anyone using the blockchain located on the network.
-- Blockchain is a series of data blocks (data) who&#39;s each block contains a set of transactions.
+- Blockchain is a series of data blocks (data) who's each block contains a set of transactions.
 - These blocks are electronically linked to each other and are kept secure through encryption.
 - This technology is secure and it is difficult to hack. That is why this technology is safe to prevent cyber crime and hacking.
 - Under this, the details of each transaction are recorded in the ledger after it is verified by a series of computers (called nodes) connected to the network.
@@ -128,7 +128,7 @@ The Government of India is trying its best to move towards a cashless economy by
 
 ## Need for regulation
 
-The best and biggest example of blockchain technology is the bitcoin network. But a virtual currency like bitcoin that uses blockchain technology can be vulnerable to ransomware attacks. Hence, it needs to be regulated very carefully. No initiative is currently being taken to regulate it in India and the Finance Minister in this year&#39;s budget declared cryptocurrencies like bitcoin illegal, in which anyone who invests will be responsible for it. Be aware that bitcoin is a purely electronic currency, which is used in exchange, but it is not recognized by any country except a few. Of course bitcoin has not gained global recognition, but in recent years the demand for bitcoin has increased globally as well as in India.
+The best and biggest example of blockchain technology is the bitcoin network. But a virtual currency like bitcoin that uses blockchain technology can be vulnerable to ransomware attacks. Hence, it needs to be regulated very carefully. No initiative is currently being taken to regulate it in India and the Finance Minister in this year's budget declared cryptocurrencies like bitcoin illegal, in which anyone who invests will be responsible for it. Be aware that bitcoin is a purely electronic currency, which is used in exchange, but it is not recognized by any country except a few. Of course bitcoin has not gained global recognition, but in recent years the demand for bitcoin has increased globally as well as in India.
 
 ## Conclusion
 

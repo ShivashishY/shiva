@@ -52,15 +52,15 @@ The Binance NFT Marketplace is powered by the Binance Smart Chain Infrastructure
 
 Next, you will need to feed in all the information required for casting the NFT, such as:
 
-1. Choose whether you want to create a &#39;single&#39; or &#39;multiple&#39; (series)
+1. Choose whether you want to create a 'single' or 'multiple' (series)
 2. NFT
 3. Give your NFT a name
 4. write a description for
-5. At the bottom you&#39;ll see the casting fee
-6. That&#39;s all! Now, you will see the message &#39;Minting Complete&#39; and your transaction ID for that mint.
+5. At the bottom you'll see the casting fee
+6. That's all! Now, you will see the message 'Minting Complete' and your transaction ID for that mint.
 7. Just below the ID, you will see the [List NFT] button. Click it to go to your collection.
 8. This will take you to the [collections] page tagged under [NFT assets] page. This page lists all the NFTs you currently own, be it an NFT you bought, or an NFT created by you. The same page also gives you the option to import NFTs from other wallets or exchanges.
-9. At the top right of the page is the [History] tab. Click it to view your [Bid Order], [Sell History] and [Purchase History]. The Bidding Order records the details of the auctions in which you are currently engaged. The &#39;Sales History&#39; is a record of the details of your past auctions as a seller. And &#39;Purchase History&#39; lists your successful purchases.
+9. At the top right of the page is the [History] tab. Click it to view your [Bid Order], [Sell History] and [Purchase History]. The Bidding Order records the details of the auctions in which you are currently engaged. The 'Sales History' is a record of the details of your past auctions as a seller. And 'Purchase History' lists your successful purchases.
 
 ## Some more points you need to know
 

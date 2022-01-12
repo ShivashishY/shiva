@@ -42,7 +42,7 @@ And in such a situation, even if a hacker wants to hack, then he cannot hack all
 
 The way the data of Cryptocurrency is written in the blockchain, in the same way, the data in decentralization will not be in any one computer but will remain in the blockchain and in this case, your data will be completely safe and secure.
 
-For example, if you buy a domain name in the version of Web 3.0, then no one will be able to remove the buyer&#39;s name, address, and any kind of information because all this information will remain in the Blockchain.
+For example, if you buy a domain name in the version of Web 3.0, then no one will be able to remove the buyer's name, address, and any kind of information because all this information will remain in the Blockchain.
 
 ## **Advantages of Web 3.0**
 
@@ -52,7 +52,7 @@ Web 3.0 will be completely decentralized, which means no hosting server website 
 ### 2. **Blockchain Technology -:** 
 This system will work on Blockchain technology, due to which the data of the website will be stored on many (block) computers, then it will be almost impossible to hack your website. If hacked, then only the servers of that block will be down, not the entire website.
 ### 3. **Security -:** 
-In Decentralized, we get complete security because when our data is on anyone&#39;s lake, it is possible to hack it, but here our data will not be on anyone&#39;s lake. In such a situation, hackers cannot hack all the computers in the world simultaneously. Even if the file of your website gets corrupted in one system, then the IPFS system will compare the file with the other system, and we will know that that file is corrupt, we will not use it and in this way, our blog or The website will be secure forever.
+In Decentralized, we get complete security because when our data is on anyone's lake, it is possible to hack it, but here our data will not be on anyone's lake. In such a situation, hackers cannot hack all the computers in the world simultaneously. Even if the file of your website gets corrupted in one system, then the IPFS system will compare the file with the other system, and we will know that that file is corrupt, we will not use it and in this way, our blog or The website will be secure forever.
 ### 4. **Privacy-:** 
 In Web 3.0 Decentralized, our data will not remain in any one server or computer but will be scattered in all the computers of the world, so no one will find our data and in this way, our privacy will remain safe.
 ### 5. **Our Data Will Be Semantic -:** 
@@ -76,7 +76,7 @@ When using search engines, finding the best results used to be quite challenging
 Web 2.0 also introduced social tagging systems, but they can be manipulated. With smart algorithms, the results can be filtered as manipulated by the AI.
 
 ### **Better Advertising &amp; Marketing:** 
-No one likes to be bombarded with online ads. However, if ads apply to one&#39;s interests and needs, they can be useful rather than annoying. Web 3.0 aims to improve advertising by leveraging smart AI systems and targeting specific audiences based on consumer data.
+No one likes to be bombarded with online ads. However, if ads apply to one's interests and needs, they can be useful rather than annoying. Web 3.0 aims to improve advertising by leveraging smart AI systems and targeting specific audiences based on consumer data.
 
 ### **Better Customer Support:** 
 When it comes to websites and web applications, customer service is key to a smooth user experience. However, because of heavy costs, many web services that become successful cannot scale up their customer service operations accordingly. Through the use of smart chatbots that can talk to multiple customers at once, users can enjoy an enhanced experience while working with support agents. Digital artists are also bringing their works in front of the world by making them NFT by using web 3.0 and blockchain.

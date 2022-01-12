@@ -30,7 +30,7 @@ The technology relies on well-established cryptographic principles and acts as a
 
 In the supply chain, a private blockchain can be implemented, which determines the ability of users to read and write to the blockchain. Implementation of Blockchain technology enables supply chain points, including traceability, compliance, flexibility, and stakeholder management.
 
-The supply chain includes the end-to-end flow of information, products and services, and money. The way these components are managed affects an organization&#39;s competitive position in areas such as product cost, working capital requirements, speed-to-market, and service perception. Organizations are exploring innovative ways to streamline their supply chains and achieve efficiencies to meet consumer demands. 
+The supply chain includes the end-to-end flow of information, products and services, and money. The way these components are managed affects an organization's competitive position in areas such as product cost, working capital requirements, speed-to-market, and service perception. Organizations are exploring innovative ways to streamline their supply chains and achieve efficiencies to meet consumer demands. 
 
 # **What is Supply Chain Management?**
 

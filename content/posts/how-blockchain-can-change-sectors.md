@@ -28,7 +28,7 @@ Before knowing Blockchain, you should understand very well that both Blockchain 
 
 Although, it is wrong to call it a currency because it has no value in the real world. If you are familiar with Dera Sacha Sauda in India, ​​then understand it in this way that in Sacha Sauda you were given separate coins to buy any item in that limited area, whose price was only inside Sacha Sauda, ​​outside it was garbage in the market, So is bitcoin.
 
-Hopefully, by now you have understood blockchain, as well as the difference between bitcoin and blockchain. However, first, let&#39;s talk about the thing that we can change with the use of blockchain technology.
+Hopefully, by now you have understood blockchain, as well as the difference between bitcoin and blockchain. However, first, let's talk about the thing that we can change with the use of blockchain technology.
 
 **Banking Sector:** Blockchain technology can make a big difference in the banking sector. The banking sector usually sees a lot of things like identity theft, cost-efficiency. It can be safe and low-cost by using blockchain technology.
 

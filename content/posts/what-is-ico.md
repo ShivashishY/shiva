@@ -31,7 +31,7 @@ The best example of Cryptocurrency we all know can be called Bitcoin. Because of
 
 Nowadays, a new thing is being seen on the internet on any website related to Bitcoin or cryptocurrency, which is called Initial Coin Offering (ICO). Nowadays, ICOs have become a topic of great discussion on the Internet. But people are not getting correct information about ICO.
 
-That&#39;s why today I thought why not you should be given complete information about what is ICO and what are its benefits, so that it will be easy for you to understand it. So after all, what is ICO and why everyone is talking so much about it.
+That's why today I thought why not you should be given complete information about what is ICO and what are its benefits, so that it will be easy for you to understand it. So after all, what is ICO and why everyone is talking so much about it.
 
 **What is ICO ?**
 
@@ -55,7 +55,7 @@ Whenever a company starts, it first has to raise money for its product. He has t
 
 ICO is one of the best and easiest way for an individual or company to raise funds for their projects, and at the same time not only companies but also people invest in his project.
 
-Whenever a company has to raise money for its project / start-up, then for that they use ICO i.e. Initial Coin Offering. Simply put, the process of raising funds for the company&#39;s product through crowdfunding is done through ICO.
+Whenever a company has to raise money for its project / start-up, then for that they use ICO i.e. Initial Coin Offering. Simply put, the process of raising funds for the company's product through crowdfunding is done through ICO.
 
 According to a report, in November 2017, around 50 offers are happening every month. Which is a very big number.
 
