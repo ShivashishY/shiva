@@ -39,7 +39,7 @@ Third-party internet services called online wallets or web wallets offer similar
 
 ## Cold storage
 
-Wallet software is often targeted by hackers because of its lucrative ability to steal bitcoins. A technique called "cold storage" keeps private keys out of reach of hackers; This is accomplished by generating the private keys on a device connected to the Internet and keeping it offline at all times. The credentials needed to spend bitcoins can be stored offline in many ways, from specialized hardware wallets to simple paper printouts of private keys.
+Wallet software is often targeted by hackers because of its lucrative ability to steal bitcoins. A technique called "cold storage" keeps private keys out of reach of hackers. This is accomplished by generating the private keys on a device connected to the Internet and keeping it offline at all times. The credentials needed to spend bitcoins can be stored offline in many ways, from specialized hardware wallets to simple paper printouts of private keys.
 
 ## Hardware wallet
 
@@ -49,9 +49,9 @@ The user sets the passcode while setting up the hardware wallet. Since hardware 
 
 ## Paper wallets
 
-A paper wallet is created with a key pair generated on a computer with no internet connection; The private key is written on paper and then erased from the computer. Paper wallets can be stored in a secure physical location for later retrieval.
+A paper wallet is created with a key pair generated on a computer with no internet connection. The private key is written on paper and then erased from the computer. Paper wallets can be stored in a secure physical location for later retrieval.
 
-Physical wallets can also take the form of metal token coins, with a private key accessed under a security hologram in a recess on the reverse side. The security hologram self-destructs when removed from the token, showing that the private key has been used. Originally, these tokens were struck in brass and other base metals, but later precious metals were used as bitcoin grew in value and popularity. Coins with a face value as high as 1000 are denominated in gold. The British Museum's coin collection includes four samples from an early series of funded bitcoin tokens; one is currently on display in the museum's Money Gallery. In 2013, an Utan producer of these tokens was ordered by the Financial Crimes Enforcement Network (FCEN) to register as a money service business before producing any further funded bitcoin tokens.
+Physical wallets can also take the form of metal token coins, with a private key accessed under a security hologram in a recess on the reverse side. The security hologram self-destructs when removed from the token, showing that the private key has been used. Originally, these tokens were struck in brass and other base metals, but later precious metals were used as bitcoin grew in value and popularity. Coins with a face value as high as 1000 are denominated in gold. The British Museum's coin collection includes four samples from an early series of funded bitcoin tokens. one is currently on display in the museum's Money Gallery. In 2013, an Utan producer of these tokens was ordered by the Financial Crimes Enforcement Network (FCEN) to register as a money service business before producing any further funded bitcoin tokens.
 
 ## How do cryptoKitties and crypto wallets connect to each other?
 

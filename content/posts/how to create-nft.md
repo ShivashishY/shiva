@@ -19,7 +19,7 @@ Hybrid blockchains have a combination of centralized and decentralized features.
 
 ### Side chain
 
-A side chain is a designation for a blockchain ledger that runs parallel to a primary blockchain. Entries from the primary blockchain (where said entries typically represent digital assets) can be linked to and from the side-chain; This allows side-chains to operate independently of the primary blockchain (e.g., using alternative means of record keeping, alternative consensus algorithms, etc.)
+A side chain is a designation for a blockchain ledger that runs parallel to a primary blockchain. Entries from the primary blockchain (where said entries typically represent digital assets) can be linked to and from the side-chain. This allows side-chains to operate independently of the primary blockchain (e.g., using alternative means of record keeping, alternative consensus algorithms, etc.)
 
 ### Interoperability
 

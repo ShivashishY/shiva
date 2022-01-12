@@ -62,7 +62,7 @@ With this, these minors do a thorough check of that transaction and see if there
 
 ## Understanding Proof of Work
 
-This explanation will focus on proof of work as it works in the bitcoin network. Bitcoin is a digital currency that is a type of distributed ledger known as a “blockchain”. This ledger records all bitcoin transactions, arranged in successive "blocks" so that no user is allowed to spend twice as much of their holdings. To prevent tampering, the ledger is public, or "distributed"; An altered version will be immediately rejected by other users.
+This explanation will focus on proof of work as it works in the bitcoin network. Bitcoin is a digital currency that is a type of distributed ledger known as a “blockchain”. This ledger records all bitcoin transactions, arranged in successive "blocks" so that no user is allowed to spend twice as much of their holdings. To prevent tampering, the ledger is public, or "distributed". An altered version will be immediately rejected by other users.
 
 The way users detect tampering with user behavior is through hashes, long strings of numbers that serve as proof of work. What is Proof of Work? Put a set of data through a hash function (bitcoin uses SHA-256), and it will generate only one hash.
 

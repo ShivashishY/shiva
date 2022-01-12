@@ -88,7 +88,7 @@ Either a GPU (Graphics Processing Unit) miner or an application-specific integra
 For example, the ELI5 version of Bitcoin miners
 Example: I tell three friends that I am thinking of a number between 1 and 100, and I write that number on a piece of paper and seal it in an envelope. My friends don't have to guess the exact number. They have to be the first to guess any number, which is what I'm thinking. And there's no limit to how many guesses they get.
 
-Let's say I'm thinking of number 1. If friends guess a 21, then they lose because 21 & gt; 19 If friend B guesses 16 and friend C guesses 12, then they both arrive at a theoretically feasible answer, because 16 & lt; 19 & 12 & lt; There is no additional credit for 19 friends B, even though B's answer was closer to the answer of target 19.
+Let's say I'm thinking of number 1. If friends guess a 21, then they lose because 21 and 19 If friend B guesses 16 and friend C guesses 12, then they both arrive at a theoretically feasible answer, because 16, 19 and 12. There is no additional credit for 19 friends B, even though B answer was closer to the answer of target 19.
 
 If both B and C answer together, then ELINA LLG breaks up.
 
@@ -110,7 +110,7 @@ As you know, we use the Decimal System, which means base 10. This means that eve
 
 0 1 2 3 4 5 6 7 8 9
 
-Hexadecimal means base 16, axioms derived from a Greek word for 10 and 10 from the Greek word for. In a hexadecimal system, each digit has 16 possibilities, but in our numeric system, only 10 ways of representing numbers are provided (0-9). Therefore, you have to hide the letters, especially the letters A, B, C, D, E, and F. In the hexadecimal system, these are the values ​​of each digit:
+Hexadecimal means base 16, axioms derived from a Greek word for 10 and 10 from the Greek word for. In a hexadecimal system, each digit has 16 possibilities, but in our numeric system, only 10 ways of representing numbers are provided (0-9). Therefore, you have to hide the letters, especially the letters A, B, C, D, E, and F. In the hexadecimal system, these are the values of each digit:
 
 ## Thank you very much, so what does discrimination have to do with mining 64-digit hexadecimal numbers?
 
