@@ -43,7 +43,7 @@ export default function BlogIndex({ data }) {
       <SEO />
       <Blurb title="Namaste, I'm Shivashish">
         <p>
-        I'm glad you're here! I'm a software engineer and writer. This website is my digital space.
+        I'm glad you're here! I'm a Technical Writer and software engineer. This website is my digital space.
           &mdash; I write to express.
           </p> 
          <p> You can find {' '}

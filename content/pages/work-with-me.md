@@ -10,24 +10,24 @@ I can help you to maximize and take your project to the next level with modern f
 
 ## Philosophy
 
-My primary principle is **getting things done** but only those “things” that have a purpose and create value for my employer or client.
+My primary principle is **getting things done,** but only those “things” that have a purpose and create value for my employer or client.
 
 -   I also believe in **no-blame engineering culture** and have learned from my own mistakes through a postmortem process.
 -   I enjoy teaching and mentoring. I believe **knowledge transfer** is important in software engineering.
 
 ## Front End
 
-I prefer to use recent and popular tools on new projects which currently means one of the reactive frameworks like Vue.js or React.
+I prefer to use recent and popular tools on new projects, which currently means one of the reactive frameworks like Vue.js or React.
 
 I am particularly strong in these technologies and skills:
 
 -   Modern, semantic **HTML**
 -   Recent **JavaScript** (ECMAScript 6 and newer)
--   Modern **CSS**. CSS3 with its grid and flexbox helps make advanced designs to be done with a lot less code.
+-   Modern **CSS**. CSS3 with its grid and flex box helps make advanced designs to be done with a lot less code.
 -   Reactive frameworks (**Vue.js** + Vuex, **React** + Redux and others)
 -   **User interfaces** from scratch or using component libraries and design systems
 -   Usability and accessibility
--   **Data visualization** (interactive SVG grahpics)
+-   **Data visualization** (interactive SVG graphics)
 -   Development tooling (using **Node.js** and the NPM ecosystem)
 
 ## JAMStack
@@ -45,17 +45,17 @@ Build fast and secure sites and apps delivered by pre-rendering files and servin
 
 A content management system (CMS) is an application that is used to manage web content, allowing multiple contributors to create, edit and publish content.
 
-### The Traditional CMS with Wordpress
+### The Traditional CMS with WordPress
 
 Content in a Traditional CMS is typically stored in a database and displayed in a presentation layer based on a set of templates. This monolithic system shares the same backend and frontend language.
 
-### The Headless CMS with Wordpress
+### The Headless CMS with WordPress
 
-A Headless CMS is a back-end only content management system, that makes content accessible via a RESTful or GraphQL API for display on any device. This is decoupled system.
+A Headless CMS is a back-end only content management system, that makes content accessible via a RESTful or GraphQL API for display on any device. This is a decoupled system.
 
 -   **Git**
 
-Git is a modern distributed Version Control System for source code. I use Git everyday and all my projects are tracked with a Git version. I host my projects on private GitHub repositories and track related issues on the GitHub issue tracker.
+Git is a modern distributed Version Control System for source code. I use Git every day and all my projects are tracked with a Git version. I host my projects on private GitHub repositories and track related issues on the GitHub issue tracker.
 
 -   **Postman**
 
@@ -65,4 +65,4 @@ All my projects are API centric and I freeze the API schema before jumping into 
 
 If the skills I can offer sound like useful additions to your existing team or want to me to help with starting a project from scratch, please [contact me](https://shivas.gtsb.io/contact).
 
-I am happy to work on-site in India, occasionally show up at more distant destinations or work fully remote anywhere else.
+I am happy to work on-site in India, occasionally show up at more distant destinations, or work fully remote anywhere else.

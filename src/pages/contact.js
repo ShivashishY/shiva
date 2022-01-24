@@ -22,6 +22,8 @@ const ContactPage = () => (
   <li><strong>Feed:</strong><a href="https://shivas.gtsb.io/rss.xml">[RSS]</a></li>
   <li><strong>Ko-Fi:</strong><a href="https://ko-fi.com/shivashish">[shivashish]</a></li>
   <li><strong>Hashnode:</strong><a href="https://hashnode.com/@shivashish">[shivashish]</a></li>
+  <li><strong>Tealfeed:</strong><a href="https://tealfeed.com/shivashish">[shivashish]</a></li>
+  <li><strong>Dev.to:</strong><a href="https://dev.to/shivashish">[shivashish]</a></li>
     </ul>
         </div>
       </header>

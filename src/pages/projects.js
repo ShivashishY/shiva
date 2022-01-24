@@ -47,15 +47,15 @@ export default function ProjectsIndex() {
             <img src={chatter} />
           </a>
           <p>
-            I built this app because I wanted to understand how chatting apps mechanism works
-            like whatsapp and other apps i wanted a simpler, IDE-like, program that would be accessible from any platform via
+          I built this app because I wanted to understand how chatting apps mechanism works
+            like WhatsApp and other apps, I wanted a simpler, IDE-like, program that would be accessible from any platform via
             the web. I also wanted it to sync without creating users or
-            requiring a database. so i created this.
+            requiring a database. So I created this.
           </p>
           <p>
-            The app allows you to chat with annyonomus name, you can create room and chat with different people at the same time
-            you can send emoji, smilies and image attaching to the chat, chat are non encrypted, i need to study more about security
-            and how to implement it. but without encryption and security its complete chat app.
+          The app allows you to chat with anonymous name, you can create a room and chat with different people at the same time
+            you can send emoji, smilies and image attaching to the chat, chat are non encrypted, I need to study more about security
+            and how to implement it. But without encryption and security, it's a complete chat app.
           </p>
 
     
@@ -70,7 +70,7 @@ export default function ProjectsIndex() {
         <section>
           <h2>CodingBuddy IDE</h2>
           <h4 className="no-underline">
-            Online Compiler for codes which supports more then 18 languages
+            Online Compiler for codes which supports more then 18 languages.
           </h4>
           <p>
             <small>
@@ -92,13 +92,13 @@ export default function ProjectsIndex() {
             <img src={cbide} />
           </a>
           <p>
-            CodingBuddy IDE was sub project of my college project, in CodingBuddy IDE you just need to copy-paste
-            the codes and select language, pass the argument if you want and you can get output. this uses codesandbox and 
-            API which support only 50 free occurence so need to reconfigure the codes to work. right now it may or may not work.
+          Coding Buddy IDE was a subproject of my college project, in Coding Buddy IDE you just need to copy-paste
+            the codes and select language, pass the argument if you want, and you can get output. This uses code sandbox and 
+            API which support only 50 free occurrence, so need to reconfigure the codes to work. Right now, it may or may not work.
           </p>
           <p>
-            CodingBuddyIDE supports more then 18 languge which it can compile, what it do inside that it sends the total code in cloud Compiler where
-            it executes the code and Cloud Compiler sends back the output back to the CodingBuddyIDE which it displays in outputbox. 
+          CodingBuddyIDE supports more than 18 language which it can compile, what it does inside that it sends the total code in cloud Compiler where
+            it executes the code and Cloud Compiler sends back the output back to the CodingBuddyIDE which it displays in the output box. 
           </p>
   
           <a href="https://github.com/ShivashishY/CodingBuddy-IDE" className="button">
@@ -132,7 +132,7 @@ export default function ProjectsIndex() {
             <img src={codingbuddy} />
           </a>
           <p>
-          In simple words, CodingBuddy is like GoogleDocs for programmers. 
+          In simple words, Coding Buddy is like Google Docs for programmers. 
           It allows you to work collaboratively on code with fellow engineers for interviews, 
           troubleshooting, teaching and more, no matter where you live.
           </p>
@@ -149,7 +149,7 @@ export default function ProjectsIndex() {
 
           <h2>CovidV</h2>
           <h4 className="no-underline">
-            Corona Virus tracking web app, includes heat map and global map of world
+            Corona Virus tracking web app, includes heat map and global map of world.
           </h4>
           <p>
             <i><ul>
@@ -172,12 +172,12 @@ export default function ProjectsIndex() {
             <img src={covidv} />
           </a>
           <p>
-          This project aims to visualise the live spread of COVID-19 virus Nobel Corona Virus.
-          This projects helps in better visualisation of the spread of the virus as in Real Time.
+          This project aims to visualize the live spread of COVID-19 virus, Nobel Coronavirus.
+          This project helps in better visualization of the spread of the virus as in Real Time.
           </p>
           <p>
-          CovidV shows realtime monitoring of Recovered, Deceased and total cases of the countries, but it have seprate page for
-          india's situation tracking it have heat map, global map, and color map of india based on cases.  
+          CovidV shows real-time monitoring of Recovered, Deceased and total cases of the countries, but it has separate page for
+          India's situation tracking it has heat map, global map, and color map of India based on cases.  
           Data sources are from: WHO, CDC, ECDC, NHC and DXY and local media reports. All the data are collected and maintained 
           by Center for Systems Science and Engineering at Johns Hopkins Whiting School of Engineering.
 

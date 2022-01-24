@@ -15,6 +15,6 @@ Programming a few web apps of my personal projects and [client's](https://shivas
 
 ## Writing
 
-I have been thinking about writing a book on an idea that I have been most excited about for the last two years. But also writing about SQL fundamental book which can help new-bies to learn complex things in a easy way. I'm currently working on the first draft.
+I have been thinking about writing a book on an idea that I have been most excited about for the last two years. But also writing about SQL fundamental book which can help newbies to learn complex things in a easy way. I'm currently working on the first draft.
 
 But more about that, later.
