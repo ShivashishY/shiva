@@ -1,3 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "gatsby clean && gatsby build"
+
+[build.environment]
+  NODE_VERSION = "20.18.0"
