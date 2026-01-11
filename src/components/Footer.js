@@ -1,62 +1,52 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-export default function Footer() {
+import netlify from '../../content/thumbnails/netlify.png'
+import gatsby from '../assets/gatsby.png'
+import github from '../assets/nav-github.png'
+
+const links = [
+  { url: 'https://shivas.gtsb.io/rss.xml', label: 'RSS feed' },
+  { url: 'https://github.com/ShivashishY', label: 'GitHub' },
+]
+const madeWithLinks = [
+  { url: 'https://www.gatsbyjs.org', label: 'Gatsby', icon: gatsby },
+  { url: 'https://github.com/ShivashishY', label: 'GitHub', icon: github },
+  { url: 'https://www.netlify.com', label: 'Netlify', icon: netlify },
+]
+
+export const Footer = () => {
   return (
-    <footer className="footer flex">
-      <section className="container">
-      <div className="lets-connect"><h3>Let's connect</h3></div>
-        <nav className="footer-links">
-          <Link to="/blog">Blog</Link>
-          <Link to="/guides">Guides</Link>
-          <a
-            href="https://shivashishyadav.substack.com//subscribe"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Newsletter
-          </a>
-          <a
-            href="https://ko-fi.com/shivashish"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Donate
-          </a>
-          <a
-            href="https://patreon.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Patreon
-          </a>
-          <a
-            href="https://twitter.com/ShivashishYadav"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-          <a
-            href="https://www.facebook.com/shivashish.ydv"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Facebook
-          </a>
-          <a
-            href="https://www.instagram.com/shivashish.yadav/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Instagram
-          </a>
+    <footer className="footer">
+      <section className="footer-section">
+        <nav className="footer-menu">
+          {links.map((link) => (
+            <a
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={link.url}
+              className="footer-link"
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
-        <div className="namefooter">
-        <hr/>
-            <br/>
-            © {new Date().getFullYear()}❤️, Shivashish Yadav
-            </div>
+        <nav className="footer-menu-buttons">
+          {madeWithLinks.map((link) => (
+            <a
+              href={link.url}
+              title={link.label}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={link.url}
+              className="button small"
+            >
+              <img src={link.icon} alt={link.label} />
+              <span>{link.label}</span>
+            </a>
+          ))}
+        </nav>
+        <div className="footer-made-by">Made by Shivashish Yadav</div>
       </section>
     </footer>
   )

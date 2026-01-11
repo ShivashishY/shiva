@@ -1,53 +1,46 @@
 import React, { useMemo } from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import blog from '../assets/nav-blog.png'
 import { Hero } from '../components/Hero'
 import { Layout } from '../components/Layout'
 import { Search } from '../components/Search'
 import { SEO } from '../components/SEO'
 import { PageLayout } from '../components/PageLayout'
 import { getSimplifiedPosts } from '../utils/helpers'
-import projects from '../assets/nav-projects.png'
 import config from '../utils/config'
 
-export default function Blog({ data }) {
+export default function Notes({ data }) {
   const posts = data.posts.edges
   const simplifiedPosts = useMemo(() => getSimplifiedPosts(posts), [posts])
-  const title = 'Blog'
-
-  const description = (
-    <div>
-      {
-        'Guides, references, and tutorials on programming, web development, and design. '
-      }
-      <Link to="/topics">View all topics.</Link>
-    </div>
-  )
+  const title = 'Notes'
+  const description =
+    'Personal notes about life, music, projects, and everything else.'
 
   return (
     <>
       <Helmet title={`${title} | ${config.siteTitle}`} />
       <SEO customDescription={description} />
-      <PageLayout>
-        <Hero title={title} description={description} hasSearch icon={projects} />
 
-        <Search data={simplifiedPosts} section="blog" />
+      <PageLayout>
+        <Hero title={title} description={description} hasSearch icon={blog} />
+        <Search data={simplifiedPosts} section="notes" />
       </PageLayout>
     </>
   )
 }
 
-Blog.Layout = Layout
+Notes.Layout = Layout
 
-export const articlesQuery = graphql`
-  query BlogQuery {
+export const notesQuery = graphql`
+  query NotesQuery {
     posts: allMarkdownRemark(
       sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
           template: { eq: "post" }
-          categories: { eq: "Technical" }
+          categories: { eq: "Personal" }
         }
       }
     ) {

@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, navigate } from 'gatsby'
 import { useFlexSearch } from 'react-use-flexsearch'
-import * as queryString from 'query-string'
+import queryString from 'query-string'
+import { useLocation } from '@reach/router'
 
-import Posts from './Posts'
+import { Searchbar } from './Searchbar'
 
-export default function Search({ posts, location, navigate }) {
+import { Posts } from './Posts'
+
+export const Search = ({ data, section }) => {
+  const location = useLocation()
+
   const { search } = queryString.parse(location.search)
   const [query, setQuery] = useState(search || '')
   const { localSearchPages } = useStaticQuery(graphql`
@@ -25,25 +30,31 @@ export default function Search({ posts, location, navigate }) {
 
   return (
     <>
-      <input
-        id="search"
-        type="search"
-        placeholder="Search for anything..."
-        value={query}
-        onChange={(e) => {
-          navigate(e.target.value ? `/blog/?search=${e.target.value}` : '')
-          setQuery(e.target.value)
+      <Searchbar
+        count={data.length}
+        query={query}
+        handleSearch={(event) => {
+          const updatedValue = event.target.value
+            ? `/${section}/?search=${event.target.value}`
+            : ''
+
+          navigate(updatedValue)
+
+          setQuery(event.target.value)
         }}
+        style={{ marginBottom: '2.5rem' }}
       />
       <section>
         {query ? (
           results.length > 0 ? (
-            <Posts data={results} />
+            <Posts data={results} showYears query={query} />
           ) : (
-            <p>Sorry, nothing matched that search.</p>
+            <p style={{ marginTop: '2rem' }}>
+              Sorry, nothing matched that search.
+            </p>
           )
         ) : (
-          <Posts data={posts} showYears />
+          <Posts data={data} showYears />
         )}
       </section>
     </>

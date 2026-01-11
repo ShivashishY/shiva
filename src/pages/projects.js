@@ -1,195 +1,110 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
+import { StarIcon } from '../assets/StarIcon'
+import { Layout } from '../components/Layout'
+import { SEO } from '../components/SEO'
+import { Hero } from '../components/Hero'
+import { PageLayout } from '../components/PageLayout'
 import config from '../utils/config'
-import chatter from '../../content/images/chatter.png'
-import codingbuddy from '../../content/images/codingbuddy.png'
-import covidv from '../../content/images/covidv.png'
-import cbide from '../../content/images/cbide.png'
+import { projectsList } from '../data/projectsList'
+import github from '../assets/nav-github.png'
 
-export default function ProjectsIndex() {
+export default function Projects() {
+  const [repos, setRepos] = useState([])
+  const title = 'Projects'
+  const description =
+    "Open-source projects I've made over the years, including this website, an emulator, and various games, apps, frameworks, and boilerplates."
+
+  useEffect(() => {
+    async function getStars() {
+      const repos = await fetch(
+        'https://api.github.com/users/ShivashishY/repos?per_page=100'
+      )
+
+      return repos.json()
+    }
+
+    getStars()
+      .then((data) => {
+        setRepos(data)
+      })
+      .catch((err) => console.error(err))
+  }, [])
+
   return (
-    <Layout>
-      <Helmet title={`Projects | ${config.siteTitle}`} />
+    <>
+      <Helmet title={`${title} | ${config.siteTitle}`} />
       <SEO />
-      <div className="container page">
-        <header>
-          <h1>Projects.</h1>
-          <p className="subtitle">
-            A few highlights of my open-source projects. View them all{' '}
-            <a href="https://github.com/shivashishy">on GitHub</a>.
-          </p>
-        </header>
 
-        <section>
-          <h2>Chatter</h2>
-          <h4 className="no-underline">
-            A free, open source web chat app.
-          </h4>
-          <p>
-            <small>
-              <i>
-              <ul>
-                      <li>Web framework: Express</li>
-                        <li>JavaScript Library: jQuery V-2.2.2</li>
-                        <li>Web Servers: Express, Cowboy</li>
-                        <li>Paas: Heroku</li>
-                        <li>UI framework: Bootstrap V-3.3.6</li>
-                        <li>Programming Language : Node.js</li>
-              </ul>
-              </i>
-            </small>
-          </p>
-          <a href="https://chatterme.herokuapp.com/" className="link-image" target="_blank">
-            <img src={chatter} />
-          </a>
-          <p>
-          I built this app because I wanted to understand how chatting apps mechanism works
-            like WhatsApp and other apps, I wanted a simpler, IDE-like, program that would be accessible from any platform via
-            the web. I also wanted it to sync without creating users or
-            requiring a database. So I created this.
-          </p>
-          <p>
-          The app allows you to chat with anonymous name, you can create a room and chat with different people at the same time
-            you can send emoji, smilies and image attaching to the chat, chat are non encrypted, I need to study more about security
-            and how to implement it. But without encryption and security, it's a complete chat app.
-          </p>
+      <PageLayout>
+        <Hero title={title} description={description} icon={github} />
 
-    
-          <a href="https://github.com/ShivashishY/Chatter" className="button">
-            Source
-          </a>
-          <a href="https://chatterme.herokuapp.com/" className="button">
-            Demo
-          </a>
-        </section>
-
-        <section>
-          <h2>CodingBuddy IDE</h2>
-          <h4 className="no-underline">
-            Online Compiler for codes which supports more then 18 languages.
-          </h4>
-          <p>
-            <small>
-            <ul>
-                      <li>Web framework: Express</li>
-                        <li>JavaScript Library: jQuery V-3.4.1</li>
-                        <li>Web Servers: Apache</li>
-                        <li>Paas: Heroku</li>
-                        <li>UI framework: Semantic UI</li>
-                        <li>Programming Language : JavaScript, HTML, CSS</li>
-              </ul>
-            </small>
-          </p>
-          <a
-            href="https://cbide.herokuapp.com/"
-            className="link-image"
-            target="_blank"
-          >
-            <img src={cbide} />
-          </a>
-          <p>
-          Coding Buddy IDE was a subproject of my college project, in Coding Buddy IDE you just need to copy-paste
-            the codes and select language, pass the argument if you want, and you can get output. This uses code sandbox and 
-            API which support only 50 free occurrence, so need to reconfigure the codes to work. Right now, it may or may not work.
-          </p>
-          <p>
-          CodingBuddyIDE supports more than 18 language which it can compile, what it does inside that it sends the total code in cloud Compiler where
-            it executes the code and Cloud Compiler sends back the output back to the CodingBuddyIDE which it displays in the output box. 
-          </p>
-  
-          <a href="https://github.com/ShivashishY/CodingBuddy-IDE" className="button">
-            Source
-          </a>
-          <a href="https://cbide.herokuapp.com/" className="button">
-            Demo
-          </a>
-        </section>
-
-        <section>
-          <h2>CodingBuddy</h2>
-          <h4 className="no-underline">
-            One stop solution for all coding need
-          </h4>
-          <p>
-            <small>
-              <i><ul>
-                      <li>Web framework: Express</li>
-                        <li>JavaScript Library: jQuery V-3.1.0, Socket.io</li>
-                        <li>Web Servers: Express, Cowboy</li>
-                        <li>Paas: Heroku</li>
-                        <li>UI framework: Bootstrap V-3.3.7</li>
-                        <li>Database: MongoDB</li>
-                        <li>JavaScript Graphics: particle.js</li>
-                        <li>Programming Language : Node.js, JavaScript, Handlebars</li>
-              </ul></i>
-            </small>
-          </p>
-          <a href="https://laconia.dev" className="link-image" target="_blank">
-            <img src={codingbuddy} />
-          </a>
-          <p>
-          In simple words, Coding Buddy is like Google Docs for programmers. 
-          It allows you to work collaboratively on code with fellow engineers for interviews, 
-          troubleshooting, teaching and more, no matter where you live.
-          </p>
-          <p>
-            CodingBuddy supports audio, video and text chat, with real-time live code share window, you can create tasks, online compiler,
-            you can create/login your account through Facebook authentication or with email id, live email support is also provided.
-          </p>
-          <a href="https://github.com/ShivashishY/CodingBuddy" className="button">
-            Source
-          </a>
-          <a href="https://codingbuddy.herokuapp.com/" className="button">
-            Demo
-          </a>
-
-          <h2>CovidV</h2>
-          <h4 className="no-underline">
-            Corona Virus tracking web app, includes heat map and global map of world.
-          </h4>
-          <p>
-            <i><ul>
-                        <li>Web framework: Ruby on Rails</li>
-                        <li>JavaScript Library: jQuery V-3.2.1</li>
-                        <li>CDN: jsDelivr, Fastly</li>
-                        <li>Paas: GitHub Pages</li>
-                        <li>UI framework: Bootstrap V-4.4.1</li>
-                        <li>Map: Mapbox GL JS</li>
-                        <li>Caching: varnish</li>
-                        <li>JavaScript Graphics: Chart.js</li>
-                        <li>Programming Language : JavaScript, HTML</li>
-              </ul></i>
-          </p>
-          <a
-            href="https://covidv.github.io/"
-            className="link-image"
-            target="_blank"
-          >
-            <img src={covidv} />
-          </a>
-          <p>
-          This project aims to visualize the live spread of COVID-19 virus, Nobel Coronavirus.
-          This project helps in better visualization of the spread of the virus as in Real Time.
-          </p>
-          <p>
-          CovidV shows real-time monitoring of Recovered, Deceased and total cases of the countries, but it has separate page for
-          India's situation tracking it has heat map, global map, and color map of India based on cases.  
-          Data sources are from: WHO, CDC, ECDC, NHC and DXY and local media reports. All the data are collected and maintained 
-          by Center for Systems Science and Engineering at Johns Hopkins Whiting School of Engineering.
-
-          </p>
-          <a href="https://github.com/ShivashishY/covidv.github.io" className="button">
-            Source
-          </a>
-          <a href="https://covidv.github.io/" className="button">
-            Demo
-          </a>
-        </section>
-      </div>
-    </Layout>
+        <div className="cards">
+          {projectsList.map((project) => {
+            return (
+              <div className="card" key={project.slug}>
+                <div className="stars">
+                  {repos.find((repo) => repo.name === project.slug) && (
+                    <div className="star">
+                      <a
+                        href={`https://github.com/ShivashishY/${project.slug}/stargazers`}
+                      >
+                        {Number(
+                          repos.find((repo) => repo.name === project.slug)
+                            .stargazers_count
+                        ).toLocaleString()}
+                      </a>
+                      <StarIcon />
+                    </div>
+                  )}
+                </div>
+                <time>{project.date}</time>
+                <a
+                  className="card-header"
+                  href={`https://github.com/ShivashishY/${project.slug}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {project.name}
+                </a>
+                <p>{project.tagline}</p>
+                <div className="card-links">
+                  {project.writeup && (
+                    <Link
+                      className="button secondary small"
+                      to={project.writeup}
+                    >
+                      Article
+                    </Link>
+                  )}
+                  {project.url && (
+                    <a
+                      className="button secondary small"
+                      href={project.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  )}
+                  <a
+                    className="button secondary small"
+                    href={`https://github.com/ShivashishY/${project.slug}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Source
+                  </a>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </PageLayout>
+    </>
   )
 }
+
+Projects.Layout = Layout

@@ -1,17 +1,30 @@
 const path = require('path')
 
+// Helpers
+function slugify(str) {
+  return (
+    str &&
+    str
+      .match(
+        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
+      )
+      .map((x) => x.toLowerCase())
+      .join('-')
+  )
+}
+
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPage = path.resolve('./src/templates/post.js')
   const pagePage = path.resolve('./src/templates/page.js')
-  const tagPage = path.resolve('./src/templates/tag.js')
+  const tagPage = path.resolve('./src/templates/topic.js')
   const categoryPage = path.resolve('./src/templates/category.js')
 
   const result = await graphql(
     `
       {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+        allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
           edges {
             node {
               id
@@ -82,6 +95,7 @@ const createPages = async ({ graphql, actions }) => {
       component: pagePage,
       context: {
         slug: page.node.fields.slug,
+        thumbnail: page.node.frontmatter.thumbnail,
       },
     })
   })
@@ -93,7 +107,7 @@ const createPages = async ({ graphql, actions }) => {
   const tagList = Array.from(tagSet)
   tagList.forEach((tag) => {
     createPage({
-      path: `/tags/${slugify(tag)}/`,
+      path: `/topics/${slugify(tag)}/`,
       component: tagPage,
       context: {
         tag,
@@ -145,16 +159,3 @@ const createNode = ({ node, actions, getNode }) => {
 
 exports.createPages = createPages
 exports.onCreateNode = createNode
-
-// Helpers
-function slugify(str) {
-  return (
-    str &&
-    str
-      .match(
-        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
-      )
-      .map((x) => x.toLowerCase())
-      .join('-')
-  )
-}
