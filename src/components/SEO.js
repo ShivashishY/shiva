@@ -1,16 +1,11 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import config from '../utils/config'
 
-export default function SEO({
-  postNode,
-  postPath,
-  postSEO,
-  customDescription,
-}) {
-  let title
-  let description
+export const SEO = ({ postNode, postPath, postSEO, customDescription }) => {
+  let title = config.siteTitle
+  let description = customDescription || config.description
   let image = config.siteLogo
   let postURL
 
@@ -20,13 +15,10 @@ export default function SEO({
     description = postNode.excerpt
 
     if (postMeta.thumbnail) {
-      image = postMeta.thumbnail.childImageSharp.fixed.src
+      image = postMeta.thumbnail.childImageSharp.gatsbyImageData.src
     }
 
     postURL = `${config.siteUrl}${postPath}`
-  } else {
-    title = config.siteTitle
-    description = customDescription || config.description
   }
 
   image = `${config.siteUrl}${image}`
@@ -72,6 +64,7 @@ export default function SEO({
       }
     )
   }
+
   return (
     <Helmet>
       <meta name="description" content={description} />

@@ -2,37 +2,33 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
+import { Layout } from '../components/Layout'
+import { Hero } from '../components/Hero'
+import { SEO } from '../components/SEO'
+import { PageLayout } from '../components/PageLayout'
 import config from '../utils/config'
 
 export default function PageTemplate({ data }) {
   const post = data.markdownRemark
+  const { title, description, thumbnail } = post.frontmatter
 
   return (
-    <Layout>
-      <Helmet
-        title={`${
-          post.frontmatter.title === 'Shivashish Yadav'
-            ? 'Resume'
-            : post.frontmatter.title
-        } | ${config.siteTitle}`}
-      />
-      <SEO />
-      <header>
-        <div className="container">
-          <h1>{post.frontmatter.title}</h1>
-          <p className="subtitle">{post.frontmatter.description}</p>
-        </div>
-      </header>
-      <section>
-        <div className="container page">
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
-      </section>
-    </Layout>
+    <>
+      <Helmet title={`${title} | ${config.siteTitle}`} />
+      <SEO customDescription={description} />
+
+      <PageLayout>
+        <Hero title={title} thumbnail={thumbnail} />
+        <div
+          className="page-article"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+        />
+      </PageLayout>
+    </>
   )
 }
+
+PageTemplate.Layout = Layout
 
 export const pageQuery = graphql`
   query PageBySlug($slug: String!) {
@@ -40,7 +36,12 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        description
+        slug
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData(width: 40, height: 40, layout: FIXED)
+          }
+        }
       }
     }
   }

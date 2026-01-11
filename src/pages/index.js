@@ -1,125 +1,176 @@
 import React, { useMemo } from 'react'
 import { Link, graphql } from 'gatsby'
+
+import { GatsbyImage } from 'gatsby-plugin-image'
 import Helmet from 'react-helmet'
 
-import Layout from '../components/Layout'
-import Posts from '../components/Posts'
-import ContactForm from '../components/ContactForm'
-import Projects from '../components/Projects'
-import SEO from '../components/SEO'
-import Blurb from '../components/Blurb'
+import { Layout } from '../components/Layout'
+import { Posts } from '../components/Posts'
+import { SEO } from '../components/SEO'
+import { Heading } from '../components/Heading'
+import { Hero } from '../components/Hero'
+import { PageLayout } from '../components/PageLayout'
+import { projectsList } from '../data/projectsList'
 import { getSimplifiedPosts } from '../utils/helpers'
 import config from '../utils/config'
-import projects from '../data/projects'
-import ScrollToTop from "react-scroll-up"
-import CookieConsent from "react-cookie-consent";
 
+export default function Index({ data }) {
+  const latestNotes = data.latestNotes.edges
+  const latestArticles = data.latestArticles.edges
+  const highlights = data.highlights.edges
+  const notes = useMemo(() => getSimplifiedPosts(latestNotes), [latestNotes])
 
-export default function BlogIndex({ data }) {
-  const latest = data.latest.edges
-  const popular = data.popular.edges
-  const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
-  const simplifiedPopular = useMemo(() => getSimplifiedPosts(popular), [
-    popular,
-  ])
-
-  const Section = ({ title, children, button, ...props }) => (
-    <section {...props}>
-      <h2 className="section-title">
-        {title}
-        {button && (
-          <Link className="section-button" to="/blog">
-            View all
-          </Link>
-        )}
-      </h2>
-      {children}
-    </section>
+  const articles = useMemo(
+    () => getSimplifiedPosts(latestArticles),
+    [latestArticles]
+  )
+  const simplifiedHighlights = useMemo(
+    () => getSimplifiedPosts(highlights, { thumbnails: true }),
+    [highlights]
   )
 
   return (
-    <Layout>
+    <>
       <Helmet title={config.siteTitle} />
       <SEO />
-      <Blurb title="Namaste, I'm Shivashish">
-        <p>
-        I'm glad you're here! I'm a Technical Writer and software engineer. This website is my digital space.
-          &mdash; I write to express.
-          </p> 
-         <p> You can find {' '}
-         <Link to="/blog"> blog posts </Link> about Code,<Link to="/food"> Food</Link>, Product & Tech Policy. 
-          You can read my {' '}
-          <Link to="/guides">guides & codelabs </Link>, or know more {' '}
-          <Link to="/about">about me</Link>.
-        </p>
-      
-        <a
-              href="https://shivashishy.github.io/Resume/assets/Shivashish_MCA_Nov_2020.pdf"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-              style={{ textAlign: 'center', marginLeft: '.5rem' }}
-            >
-              Download Resume
-            </a>
-      </Blurb>
-      <div className="container index">
-        <Section title="Latest Articles." button>
-          <Posts data={simplifiedLatest} />
-        </Section>
-        <Section title="Popular Articles." button>
-          <Posts data={simplifiedPopular} />
-        </Section>
-        <Section title="Projects.">
-          <Projects data={projects} />
-        </Section>
-        <Section title="Newsletter.">
-          <div className="flex">
-            <p className="paragraph">
-              I send out an email when I create something new. I'm never going
-              to spam you, and you can unsubscribe any time.
-            </p>
-            <a
-              href="https://shivashishyadav.substack.com/subscribe"
-              target="_blank"
-              rel="noreferrer"
-              className="button"
-              style={{ textAlign: 'center', marginLeft: '.5rem' }}
-            >
-              Get the newsletter
-            </a>
+
+      <PageLayout>
+        <Hero type="index">
+          <div className="hero-wrapper">
+            <div>
+              <h1>Hey, I'm Shivashish!</h1>
+              <p className="hero-description">
+                I'm a software engineer and open-source creator. Welcome to my
+                digital space where I share my{' '}
+                <Link to="/blog">thoughts and tutorials</Link>!
+              </p>
+              <p
+                className="flex-wrap flex-align-center gap"
+                style={{ marginBottom: 0 }}
+              >
+                <Link className="button" to="/me">
+                  About Me
+                </Link>
+              </p>
+            </div>
           </div>
-        </Section>
-        <section title="Contact" className="button">
-         <header className="major">
-        <h2>Contact Me.</h2>
-        <ContactForm action="https://www.flexyform.com/f/5af4b97299d19b7498db04ab5c3b04478514657a"></ContactForm>
-    </header>
-    <CookieConsent
-  location="bottom"
-  buttonText="Sure!!"
-  cookieName="myAwesomeCookieName2"
-  style={{ background: "#111827" }}
-  buttonStyle={{ color: "#4e503b", fontSize: "15px" }}
-  expires={150}
->
-  This website uses cookies to enhance the user experience. This site does not store any information{" "}
-</CookieConsent>
-</section>
-      </div>
-      <ScrollToTop showUnder={160}>
-                            <span className="largefont">Top</span>
-        </ScrollToTop>
-    </Layout>
+        </Hero>
+
+        <section className="section-index">
+          <Heading
+            title="Blog"
+            description="Guides, references, and tutorials."
+          />
+          <Posts data={articles} />
+        </section>
+
+        <section className="section-index">
+          <Heading
+            title="Notes"
+            description="Life, projects, and everything else."
+          />
+          <Posts data={notes} />
+        </section>
+
+        <section className="section-index">
+          <Heading
+            title="Deep Dives"
+            slug="/topics"
+            buttonText="All Topics"
+            description="Long-form tutorials on a variety of development topics."
+          />
+          <div className="cards">
+            {simplifiedHighlights.map((post) => {
+              return (
+                <Link
+                  to={post.slug}
+                  className="card card-highlight"
+                  key={`popular-${post.slug}`}
+                >
+                  {post.thumbnail && (
+                    <GatsbyImage image={post.thumbnail} alt="Thumbnail" />
+                  )}
+                  <div>{post.title}</div>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+
+        <section>
+          <Heading
+            title="Projects"
+            slug="/projects"
+            buttonText="All Projects"
+            description="Open-source projects I've worked on over the years."
+          />
+
+          <div className="cards">
+            {projectsList
+              .filter((project) => project.highlight)
+              .map((project) => {
+                return (
+                  <div className="card" key={`hightlight-${project.slug}`}>
+                    <time>{project.date}</time>
+                    <a
+                      href={`https://github.com/ShivashishY/${project.slug}`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {project.name}
+                    </a>
+                    <p>{project.tagline}</p>
+                    <div className="card-links">
+                      {project.writeup && (
+                        <Link
+                          className="button secondary small"
+                          to={project.writeup}
+                        >
+                          Article
+                        </Link>
+                      )}
+                      {project.url && (
+                        <a
+                          className="button secondary small"
+                          href={project.url}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Demo
+                        </a>
+                      )}
+                      <a
+                        className="button secondary small"
+                        href={`https://github.com/ShivashishY/${project.slug}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Source
+                      </a>
+                    </div>
+                  </div>
+                )
+              })}
+          </div>
+        </section>
+      </PageLayout>
+    </>
   )
 }
 
+Index.Layout = Layout
+
 export const pageQuery = graphql`
   query IndexQuery {
-    latest: allMarkdownRemark(
+    latestNotes: allMarkdownRemark(
       limit: 5
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { template: { eq: "post" } } }
+      sort: { frontmatter: { date: DESC } }
+      filter: {
+        frontmatter: {
+          template: { eq: "post" }
+          categories: { eq: "Personal" }
+        }
+      }
     ) {
       edges {
         node {
@@ -131,14 +182,20 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             tags
+            categories
           }
         }
       }
     }
-    popular: allMarkdownRemark(
-      limit: 20
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { eq: "Popular" } } }
+    latestArticles: allMarkdownRemark(
+      limit: 5
+      sort: { frontmatter: { date: DESC } }
+      filter: {
+        frontmatter: {
+          template: { eq: "post" }
+          categories: { eq: "Technical" }
+        }
+      }
     ) {
       edges {
         node {
@@ -150,6 +207,31 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             tags
+            categories
+          }
+        }
+      }
+    }
+    highlights: allMarkdownRemark(
+      limit: 12
+      sort: { frontmatter: { date: DESC } }
+      filter: { frontmatter: { categories: { eq: "Highlight" } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            tags
+            thumbnail {
+              childImageSharp {
+                gatsbyImageData(width: 40, height: 40, layout: FIXED)
+              }
+            }
           }
         }
       }
