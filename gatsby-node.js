@@ -159,3 +159,12 @@ const createNode = ({ node, actions, getNode }) => {
 
 exports.createPages = createPages
 exports.onCreateNode = createNode
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      comments_off: Boolean
+    }
+  `)
+}

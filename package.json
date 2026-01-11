@@ -2,6 +2,9 @@
   "name": "shivas.gtsb.io",
   "private": true,
   "version": "2.0.0",
+  "engines": {
+    "node": ">=18.0.0 <=20.18.0"
+  },
   "description": "Personal website running on Gatsby, React, and Node.js.",
   "author": "Shivashish Yadav",
   "license": "MIT",
