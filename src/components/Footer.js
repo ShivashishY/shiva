@@ -1,6 +1,6 @@
 import React from 'react'
 
-import netlify from '../assets/netlify.svg'
+import netlify from '../../content/thumbnails/netlify.png'
 import gatsby from '../assets/gatsby.png'
 import github from '../assets/nav-github.png'
 

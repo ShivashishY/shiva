@@ -157,14 +157,16 @@ const createNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.createPages = createPages
-exports.onCreateNode = createNode
-
-exports.createSchemaCustomization = ({ actions }) => {
+const createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
-  createTypes(`
+  const typeDefs = `
     type MarkdownRemarkFrontmatter {
       comments_off: Boolean
     }
-  `)
+  `
+  createTypes(typeDefs)
 }
+
+exports.createPages = createPages
+exports.onCreateNode = createNode
+exports.createSchemaCustomization = createSchemaCustomization
